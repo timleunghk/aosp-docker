@@ -1,0 +1,1381 @@
+timleung@timleung-System-Product-Name:~/project/docker-new-android$ ./build-pixelexperience-pie.sh
+aosp: Checking if /home/timleung/aosp-test/aosp exists
+aosp: Checking if /home/timleung/aosp-test/aosp exists - ok
+aosp: Checking if /home/timleung/aosp-test/ccache exists
+aosp: Checking if /home/timleung/aosp-test/ccache exists - ok
+Start Docker
+/home/timleung/aosp-test/aosp
+Unable to find image 'timleung/aosp:10.0-ten' locally
+10.0-ten: Pulling from timleung/aosp
+7595c8c21622: Pull complete 
+d13af8ca898f: Pull complete 
+70799171ddba: Pull complete 
+b6c12202c5ef: Pull complete 
+d54273b1cf9c: Pull complete 
+488fa64c9f32: Pull complete 
+b27e9a400bb1: Pull complete 
+d6d5ded17543: Pull complete 
+da77ac22948d: Pull complete 
+eb630ddd1fd2: Pull complete 
+dbca7f41ee3e: Pull complete 
+4d01e262e5a0: Pull complete 
+Digest: sha256:8c2d0d274b7b21996efcdf6ae302fa4d28d2c28e9e9c440ce80bc2ae51d4346c
+Status: Downloaded newer image for timleung/aosp:10.0-ten
+docker_entrypoint: Creating user UID/GID [1000/1000]
+docker_entrypoint: Creating user UID/GID [1000/1000] - done
+docker_entrypoint: Copying .gitconfig and .ssh/config to new user home
+docker_entrypoint: Copying .gitconfig and .ssh/config to new user home - done
+docker_entrypoint: Creating /tmp/ccache and /aosp directory
+docker_entrypoint: Creating /tmp/ccache and /aosp directory - done
+
+remote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+
+Your identity is: Docker AOSP <aosp@aosp.docker.local>
+If you want to change this, please re-run 'repo init' with --config-name
+
+repo has been initialized in /aosp
+remote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+remote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:   0% (1/755) lakgarg/packages_apps_GoogleCameraremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:   0% (2/755) PixelExperience-Devices/kernel_lge_bullheadremote: Total 0 (delta 0), reused 0 (delta 0)        
+Fetching projects:   0% (3/755) vendor_lge_bullheadremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:   0% (4/755) frameworks_baseremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:   0% (5/755) android_hardware_qcom_audioremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:   0% (6/755) android_hardware_qcom_mediaremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:   0% (7/755) android_hardware_qcom_displayremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:   1% (8/755) packages_apps_Settingsremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:   1% (9/755) android_hardware_qcom_audioremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:   1% (10/755) android_hardware_qcom_mediaremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:   1% (11/755) android_hardware_qcom_displayremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:   1% (12/755) android_packages_apps_Emailremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+Fetching projects:   1% (13/755) android_hardware_qcom_audioremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:   1% (14/755) android_hardware_qcom_mediaremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:   1% (15/755) android_hardware_qcom_displayremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:   2% (16/755) system_coreremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:   2% (17/755) android_hardware_qcom_audioremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+remote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:   2% (19/755) android_hardware_qcom_mediaremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:   2% (20/755) android_hardware_qcom_displayremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:   2% (21/755) android_packages_apps_UnifiedEmailremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:   2% (22/755) android_hardware_qcom_audioremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:   3% (23/755) android_hardware_qcom_mediaremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:   3% (24/755) android_hardware_qcom_displayremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:   3% (25/755) frameworks_avremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+remote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:   3% (27/755) android_hardware_qcom_audioremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:   3% (28/755) android_hardware_qcom_displayremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:   3% (29/755) packages_apps_Updatesremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:   3% (30/755) android_hardware_qcom_audioremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:   4% (31/755) android_hardware_qcom_mediaremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+remote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:   4% (33/755) vendor_aospremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:   4% (34/755) external_selinuxremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:   4% (35/755) android_hardware_qcom_mediaremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+remote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:   4% (37/755) android_hardware_qcom_audioremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:   5% (38/755) hardware_qcom-caf_sm8150_displayremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:   5% (39/755) LineageOS/android_hardware_sony_timekeepremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:   5% (40/755) android_hardware_qcom_mediaremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:   5% (41/755) hardware_interfacesremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:   5% (42/755) android_hardware_qcom_audioremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:   5% (43/755) hardware_custom_interfacesremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:   5% (44/755) android_external_libnfc-nxpremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:   5% (45/755) device_lge_bullheadremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:   6% (46/755) packages_services_Telecommremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:   6% (47/755) device_qcom_sepolicyremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:   6% (48/755) packages_services_Telephonyremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+Fetching projects:   6% (49/755) system_btremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:   6% (50/755) developmentremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:   6% (51/755) frameworks_opt_telephonyremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:   6% (52/755) packages_resources_devicesettings-customremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:   7% (53/755) android_hardware_qcom_btremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:   7% (54/755) android_hardware_lineage_livedisplayremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:   7% (55/755) packages_services_BuiltInPrintServiceremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:   7% (56/755) system_extrasremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:   7% (57/755) frameworks_nativeremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:   7% (58/755) android_vendor_qcom_opensource_cryptfs_hwremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:   7% (59/755) android_vendor_qcom_opensource_bluetooth_extremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:   7% (60/755) build_soongremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:   8% (61/755) android_external_ntfs-3gremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:   8% (62/755) system_sepolicyremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:   8% (63/755) android_vendor_qcom_opensource_data-ipa-cfg-mgrremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:   8% (64/755) android_external_connectivityremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:   8% (65/755) device_custom_sepolicyremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:   8% (66/755) android_vendor_qcom_opensource_interfacesremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:   8% (67/755) android_vendor_codeaurora_telephonyremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:   9% (68/755) bionicremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:   9% (69/755) bootable_recoveryremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:   9% (70/755) artremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:   9% (71/755) packages_apps_DocumentsUIremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:   9% (72/755) android_external_ant-wireless_ant_nativeremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:   9% (73/755) hardware_qcom-caf_commonremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:   9% (74/755) buildremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:   9% (75/755) external_skiaremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  10% (76/755) android_packages_resources_devicesettingsremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+remote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  10% (78/755) packages_providers_DownloadProviderremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  10% (79/755) system_bpfremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  10% (80/755) hardware_qcom-caf_msm8998_displayremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+Fetching projects:  10% (81/755) external_e2fsprogsremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  10% (82/755) packages_apps_Snapremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  10% (83/755) android_external_exfatremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  11% (84/755) external_icuremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  11% (85/755) packages_apps_Recorderremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  11% (86/755) device_mediatek_sepolicyremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  11% (87/755) manifestremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  11% (88/755) hardware_qcom_gpsremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  11% (89/755) prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9remote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  11% (90/755) hardware_qcom-caf_sdm845_displayremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  12% (91/755) system_timezoneremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  12% (92/755) system_update_engineremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  12% (93/755) frameworks_opt_timezonepickerremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  12% (94/755) hardware_qcom_keymasterremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  12% (95/755) hardware_qcom-caf_sm8150_audioremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  12% (96/755) hardware_qcom-caf_msm8998_audiofatal: unable to access 'https://github.com/PixelExperience/hardware_libhardware/': Could not resolve host: github.com
+hardware_libhardware:
+fatal: unable to access 'https://github.com/PixelExperience/hardware_libhardware/': Could not resolve host: github.com
+
+remote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  12% (97/755) prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9fatal: unable to access 'https://github.com/PixelExperience/hardware_qcom_display/': Could not resolve host: github.com
+hardware_qcom_display:
+fatal: unable to access 'https://github.com/PixelExperience/hardware_qcom_display/': Could not resolve host: github.com
+
+remote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  12% (98/755) device_qcom_sepolicy-legacy-umremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  13% (99/755) hardware_libhardware_legacyremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  13% (100/755) hardware_qcom_audioremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  13% (101/755) android_vendor_qcom_opensource_system_btremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  13% (102/755) android_system_tools_dtbtoolremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  13% (103/755) vendor_gappsremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  13% (104/755) platform_testingremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  13% (105/755) hardware_qcom-caf_msm8998_mediaremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+remote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  14% (107/755) packages_apps_TouchGesturesremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  14% (108/755) hardware_broadcom_libbtremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  14% (109/755) external_libcxxremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  14% (110/755) prebuilts_build-toolsremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  14% (111/755) packages_apps_Bluetoothremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  14% (112/755) frameworks_opt_net_wifiremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  14% (113/755) hardware_nxp_nfcremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  15% (114/755) external_toyboxremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  15% (115/755) android_hardware_broadcom_nfcremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  15% (116/755) prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9remote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  15% (117/755) android_external_ant-wireless_antradio-libraryremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  15% (118/755) system_voldremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  15% (119/755) frameworks_opt_net_imsremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  15% (120/755) vendor_qcom_opensource_commonsys_packages_apps_Bluetoothremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  16% (121/755) packages_apps_Camera2remote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  16% (122/755) prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9remote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  16% (123/755) build_blueprintremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  16% (124/755) prebuilts_r8remote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  16% (125/755) packages_apps_FMRadioremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  16% (126/755) packages_apps_Traceurremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  16% (127/755) packages_modules_CaptivePortalLoginremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  16% (128/755) external_tinyalsaremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  17% (129/755) system_keymasterremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  17% (130/755) vendor_qcom_opensource_powerremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  17% (131/755) external_libtextclassifierremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  17% (132/755) hardware_qcom_bootctrlremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  17% (133/755) android_vendor_qcom_opensource_audioremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  17% (134/755) packages_providers_MediaProviderremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  17% (135/755) hardware_qcom_btremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  18% (136/755) packages_apps_Nfcremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  18% (137/755) system_hardware_interfacesremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  18% (138/755) hardware_rilremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  18% (139/755) hardware_libhardwareremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  18% (140/755) android_hardware_qcom_thermalremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  18% (141/755) vendor_qcom_opensource_dataservicesremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  18% (142/755) device_qcom_sepolicy-legacyremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  18% (143/755) vendor_qcom_opensource_fm-commonsysremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  19% (144/755) external_tinycompressremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  19% (145/755) packages_apps_CertInstallerremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  19% (146/755) vendor_google-customizationremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  19% (147/755) android_hardware_qcom_vrremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  19% (148/755) android_vendor_qcom_opensource_thermal-engineremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+remote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+Fetching projects:  19% (150/755) android_external_ant-wireless_ant_serviceremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  20% (151/755) external_libhevcremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+remote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+remote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  20% (154/755) hardware_qcom_displayremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  20% (155/755) external_cldrremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+remote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  20% (157/755) vendor_pixelstyleremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  20% (158/755) hardware_qcom_mediaremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  21% (159/755) hardware_qcom-caf_sm8150_mediaremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+remote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  21% (161/755) android_prebuilts_tools-lineageremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  21% (162/755) android_vendor_qcom_opensource_bluetooth-commoFetching projects:  23% (177/755) platform/hardware/qcom/neuralnetworks/hvxserviFetching projects:  25% (192/755) platform/prebuilts/gcc/linux-x86/host/x86_64-lFetching projects:  28% (218/755) platform/packages/providers/BlockedNumberProviFetching projects:  29% (222/755) platform/packages/modules/NetworkPermissionConFetching projects:  30% (231/755) platform/prebuilts/gcc/linux-x86/host/x86_64-wFetching projects:  30% (233/755) platform/packages/providers/ApplicationsProvidFetching projects:  32% (245/755) platform/packages/providers/PartnerBookmarksPrFetching projects:  35% (265/755) platform/external/hyphenation-patternsremote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  40% (302/755) platform/prebuilts/maven_repo/google-play-service-client-libraries-3premote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+remote: Total 0 (delta 0), reused 0 (delta 0), pack-reused 0        
+Fetching projects:  44% (337/755) platform/hardware/knowles/athletico/sound_trigFetching projects:  46% (349/755) platform/prebuilts/gcc/darwin-x86/host/i686-apFetching projects:  49% (377/755) platform/prebuilts/gcc/darwin-x86/mips/mips64eFetching projects:  50% (385/755) platform/packages/providers/UserDictionaryProvFetching projects:  55% (420/755) platform/packages/services/AlternativeNetworkAFetching projects:  59% (448/755) platform/external/python/google-api-python-cliFetching projects:  62% (474/755) platform/prebuilts/gcc/linux-x86/mips/mips64elFetching projects:  63% (480/755) platform/packages/apps/SampleLocationAttributiFetching projects:  69% (522/755) platform/prebuilts/gcc/linux-x86/x86/x86_64-liFetching projects:  71% (540/755) platform/prebuilts/gcc/darwin-x86/x86/x86_64-lFetching projects:  73% (556/755) platform/external/google-fonts/carrois-gothic-Fetching projects:  81% (618/755) platform/packages/apps/Car/CompanionDeviceSuppFetching projects:  82% (622/755) platform/external/python/proto-google-cloud-puFetching projects:  83% (634/755) platform/external/python/gapic-google-cloud-puFetching projects: 100% (755/755), done.
+hardware/qcom-caf/apq8084/audio: Shared project android_hardware_qcom_audio found, disabling pruning.
+hardware/qcom-caf/msm8916/audio: Shared project android_hardware_qcom_audio found, disabling pruning.
+hardware/qcom-caf/msm8952/audio: Shared project android_hardware_qcom_audio found, disabling pruning.
+hardware/qcom-caf/msm8960/audio: Shared project android_hardware_qcom_audio found, disabling pruning.
+hardware/qcom-caf/msm8974/audio: Shared project android_hardware_qcom_audio found, disabling pruning.
+hardware/qcom-caf/msm8994/audio: Shared project android_hardware_qcom_audio found, disabling pruning.
+hardware/qcom-caf/msm8996/audio: Shared project android_hardware_qcom_audio found, disabling pruning.
+hardware/qcom-caf/sdm845/audio: Shared project android_hardware_qcom_audio found, disabling pruning.
+hardware/qcom-caf/sm8250/audio: Shared project android_hardware_qcom_audio found, disabling pruning.
+hardware/qcom-caf/apq8084/media: Shared project android_hardware_qcom_media found, disabling pruning.
+hardware/qcom-caf/msm8916/media: Shared project android_hardware_qcom_media found, disabling pruning.
+hardware/qcom-caf/msm8952/media: Shared project android_hardware_qcom_media found, disabling pruning.
+hardware/qcom-caf/msm8960/media: Shared project android_hardware_qcom_media found, disabling pruning.
+hardware/qcom-caf/msm8974/media: Shared project android_hardware_qcom_media found, disabling pruning.
+hardware/qcom-caf/msm8994/media: Shared project android_hardware_qcom_media found, disabling pruning.
+hardware/qcom-caf/msm8996/media: Shared project android_hardware_qcom_media found, disabling pruning.
+hardware/qcom-caf/sdm845/media: Shared project android_hardware_qcom_media found, disabling pruning.
+hardware/qcom-caf/sm8250/media: Shared project android_hardware_qcom_media found, disabling pruning.
+hardware/qcom-caf/apq8084/display: Shared project android_hardware_qcom_display found, disabling pruning.
+hardware/qcom-caf/msm8916/display: Shared project android_hardware_qcom_display found, disabling pruning.
+hardware/qcom-caf/msm8952/display: Shared project android_hardware_qcom_display found, disabling pruning.
+hardware/qcom-caf/msm8960/display: Shared project android_hardware_qcom_display found, disabling pruning.
+hardware/qcom-caf/msm8974/display: Shared project android_hardware_qcom_display found, disabling pruning.
+hardware/qcom-caf/msm8994/display: Shared project android_hardware_qcom_display found, disabling pruning.
+hardware/qcom-caf/msm8996/display: Shared project android_hardware_qcom_display found, disabling pruning.
+hardware/qcom-caf/sm8250/display: Shared project android_hardware_qcom_display found, disabling pruning.
+Checking out projects:  15% (115/755) platform/external/google-fonts/arbutus-slaChecking out projects:  15% (117/755) platform/external/google-fonts/carrois-gotChecking out projects:  15% (120/755) platform/external/google-fonts/dancing-scrChecking out projects:  16% (123/755) platform/external/google-fonts/source-sansChecking out projects:  37% (285/755) platform/external/python/gapic-google-clouChecking out projects:  37% (286/755) platform/external/python/google-api-pythonChecking out projects:  38% (288/755) platform/external/python/google-auth-httplChecking out projects:  38% (290/755) platform/external/python/google-cloud-pubsChecking out projects:  38% (293/755) platform/external/python/grpc-google-iam-vChecking out projects:  40% (306/755) platform/external/python/proto-google-clouChecking out projects:  46% (352/755) platform/external/subsampling-scale-image-Checking out projects:  57% (437/755) platform/hardware/knowles/athletico/sound_Checking out projects:  64% (489/755) platform/hardware/qcom/neuralnetworks/hvxsChecking out projects:  65% (497/755) platform/hardware/qcom/sm8150/data/ipacfg-Checking out projects:  67% (511/755) PixelExperience-Devices/kernel_lge_bullheaChecking out projects:  68% (519/755) platform/packages/apps/Car/CompanionDeviceChecking out projects:  69% (526/755) platform/packages/apps/Car/LocalMediaPlayeChecking out projects:  71% (539/755) platform/packages/apps/CellBroadcastReceivChecking out projects:  73% (557/755) platform/packages/apps/SafetyRegulatoryInfChecking out projects:  73% (558/755) platform/packages/apps/SampleLocationAttriChecking out projects:  74% (561/755) platform/packages/apps/SettingsIntelligencChecking out projects:  76% (575/755) platform/packages/apps/UniversalMediaPlayeChecking out projects:  76% (581/755) platform/packages/modules/NetworkPermissioChecking out projects:  77% (584/755) platform/packages/providers/ApplicationsPrChecking out projects:  77% (585/755) platform/packages/providers/BlockedNumberPChecking out projects:  77% (586/755) platform/packages/providers/BookmarkProvidChecking out projects:  77% (587/755) platform/packages/providers/CalendarProvidChecking out projects:  77% (588/755) platform/packages/providers/CallLogProvideChecking out projects:  78% (589/755) platform/packages/providers/ContactsProvidChecking out projects:  78% (592/755) platform/packages/providers/PartnerBookmarChecking out projects:  78% (593/755) platform/packages/providers/TelephonyProviChecking out projects:  78% (595/755) platform/packages/providers/UserDictionaryChecking out projects:  79% (598/755) platform/packages/services/AlternativeNetwChecking out projects:  82% (620/755) prebuilts_gcc_darwin-x86_aarch64_aarch64-lChecking out projects:  82% (621/755) prebuilts_gcc_darwin-x86_arm_arm-linux-andChecking out projects:  82% (622/755) platform/prebuilts/gcc/darwin-x86/host/i68Checking out projects:  82% (623/755) platform/prebuilts/gcc/darwin-x86/mips/mipChecking out projects:  82% (624/755) platform/prebuilts/gcc/darwin-x86/x86/x86_Checking out projects:  82% (625/755) prebuilts_gcc_linux-x86_aarch64_aarch64-liChecking out projects:  82% (626/755) prebuilts_gcc_linux-x86_arm_arm-linux-andrChecking out projects:  83% (627/755) platform/prebuilts/gcc/linux-x86/host/x86_Checking out projects:  83% (628/755) platform/prebuilts/gcc/linux-x86/host/x86_Checking out projects:  83% (629/755) platform/prebuilts/gcc/linux-x86/mips/mipsChecking out projects:  83% (630/755) platform/prebuilts/gcc/linux-x86/x86/x86_6Checking out projects:  85% (642/755) platform/prebuilts/maven_repo/google-play-Checking out projects:  98% (743/755) android_vendor_qcom_opensource_bluetooth-cChecking out projects:  98% (744/755) android_vendor_qcom_opensource_bluetooth_eChecking out projects:  98% (745/755) vendor_qcom_opensource_commonsys_packages_Checking out projects:  99% (748/755) android_vendor_qcom_opensource_data-ipa-cfChecking out projects:  99% (754/755) android_vendor_qcom_opensource_thermal-engChecking out projects: 100% (755/755), done.
+repo sync has finished successfully.
+including vendor/aosp/vendorsetup.sh
+ccache found and CCACHE_EXEC has been set to : /usr/bin/ccache
+03:11:34 Build sandboxing disabled due to nsjail error.
+03:11:35 Build sandboxing disabled due to nsjail error.
+Looking for dependencies
+Dependency already present in manifest: PixelExperience-Devices/kernel_lge_bullhead => kernel/lge/bullhead
+Dependency already present in manifest: vendor_lge_bullhead => vendor/lge/bullhead
+Dependency already present in manifest: lakgarg/packages_apps_GoogleCamera => packages/apps/GoogleCamera
+Dependency already present in manifest: LineageOS/android_hardware_sony_timekeep => hardware/sony/timekeep
+03:11:36 Build sandboxing disabled due to nsjail error.
+
+============================================
+PLATFORM_VERSION_CODENAME=REL
+PLATFORM_VERSION=10
+CUSTOM_VERSION=PixelExperience_Plus_bullhead-10.0-20200804-0311-UNOFFICIAL
+TARGET_PRODUCT=aosp_bullhead
+TARGET_BUILD_VARIANT=userdebug
+TARGET_BUILD_TYPE=release
+TARGET_ARCH=arm64
+TARGET_ARCH_VARIANT=armv8-a
+TARGET_CPU_VARIANT=cortex-a53
+TARGET_2ND_ARCH=arm
+TARGET_2ND_ARCH_VARIANT=armv8-a
+TARGET_2ND_CPU_VARIANT=cortex-a53.a57
+HOST_ARCH=x86_64
+HOST_2ND_ARCH=x86
+HOST_OS=linux
+HOST_OS_EXTRA=Linux-5.4.0-42-generic-x86_64-Ubuntu-18.04.4-LTS
+HOST_CROSS_OS=windows
+HOST_CROSS_ARCH=x86
+HOST_CROSS_2ND_ARCH=x86_64
+HOST_BUILD_TYPE=release
+BUILD_ID=QQ3A.200705.002
+OUT_DIR=/aosp/out
+PRODUCT_SOONG_NAMESPACES= hardware/qcom-caf/common/fwk-detect
+============================================
+03:11:36 Build sandboxing disabled due to nsjail error.
+03:11:37 Build sandboxing disabled due to nsjail error.
+Looking for dependencies
+Dependency already present in manifest: PixelExperience-Devices/kernel_lge_bullhead => kernel/lge/bullhead
+Dependency already present in manifest: vendor_lge_bullhead => vendor/lge/bullhead
+Dependency already present in manifest: lakgarg/packages_apps_GoogleCamera => packages/apps/GoogleCamera
+Dependency already present in manifest: LineageOS/android_hardware_sony_timekeep => hardware/sony/timekeep
+03:11:37 Build sandboxing disabled due to nsjail error.
+
+============================================
+PLATFORM_VERSION_CODENAME=REL
+PLATFORM_VERSION=10
+CUSTOM_VERSION=PixelExperience_Plus_bullhead-10.0-20200804-0311-UNOFFICIAL
+TARGET_PRODUCT=aosp_bullhead
+TARGET_BUILD_VARIANT=userdebug
+TARGET_BUILD_TYPE=release
+TARGET_ARCH=arm64
+TARGET_ARCH_VARIANT=armv8-a
+TARGET_CPU_VARIANT=cortex-a53
+TARGET_2ND_ARCH=arm
+TARGET_2ND_ARCH_VARIANT=armv8-a
+TARGET_2ND_CPU_VARIANT=cortex-a53.a57
+HOST_ARCH=x86_64
+HOST_2ND_ARCH=x86
+HOST_OS=linux
+HOST_OS_EXTRA=Linux-5.4.0-42-generic-x86_64-Ubuntu-18.04.4-LTS
+HOST_CROSS_OS=windows
+HOST_CROSS_ARCH=x86
+HOST_CROSS_2ND_ARCH=x86_64
+HOST_BUILD_TYPE=release
+BUILD_ID=QQ3A.200705.002
+OUT_DIR=/aosp/out
+PRODUCT_SOONG_NAMESPACES= hardware/qcom-caf/common/fwk-detect
+============================================
+03:11:38 Build sandboxing disabled due to nsjail error.
+============================================
+PLATFORM_VERSION_CODENAME=REL
+PLATFORM_VERSION=10
+CUSTOM_VERSION=PixelExperience_Plus_bullhead-10.0-20200804-0311-UNOFFICIAL
+TARGET_PRODUCT=aosp_bullhead
+TARGET_BUILD_VARIANT=userdebug
+TARGET_BUILD_TYPE=release
+TARGET_ARCH=arm64
+TARGET_ARCH_VARIANT=armv8-a
+TARGET_CPU_VARIANT=cortex-a53
+TARGET_2ND_ARCH=arm
+TARGET_2ND_ARCH_VARIANT=armv8-a
+TARGET_2ND_CPU_VARIANT=cortex-a53.a57
+HOST_ARCH=x86_64
+HOST_2ND_ARCH=x86
+HOST_OS=linux
+HOST_OS_EXTRA=Linux-5.4.0-42-generic-x86_64-Ubuntu-18.04.4-LTS
+HOST_CROSS_OS=windows
+HOST_CROSS_ARCH=x86
+HOST_CROSS_2ND_ARCH=x86_64
+HOST_BUILD_TYPE=release
+BUILD_ID=QQ3A.200705.002
+OUT_DIR=/aosp/out
+PRODUCT_SOONG_NAMESPACES= hardware/qcom-caf/common/fwk-detect
+============================================
+Environment variable BUILD_NUMBER was modified (6473e88a00 => 1880c07db2), regenerating...
+Environment variable BUILD_HOSTNAME was modified (aa143ded96f1 => cc7013504c11), regenerating...
+[ 99% 455/456] finishing build rules ...
+platform_testing/build/tasks/tests/platform_test_list.mk: warning: platform_tests: Unknown installed file for module 'LauncherRotationStressTest' 
+[100% 456/456] writing build rules ...
+build/make/core/Makefile:28: warning: overriding commands for target `/aosp/out/target/product/bullhead/system/etc/apns-conf.xml'
+build/make/core/base_rules.mk:510: warning: ignoring old commands for target `/aosp/out/target/product/bullhead/system/etc/apns-conf.xml'
+build/make/core/Makefile:28: warning: overriding commands for target `/aosp/out/target/product/bullhead/vendor/lib/hw/keystore.msm8992.so'
+build/make/core/base_rules.mk:510: warning: ignoring old commands for target `/aosp/out/target/product/bullhead/vendor/lib/hw/keystore.msm8992.so'
+build/make/core/Makefile:28: warning: overriding commands for target `/aosp/out/target/product/bullhead/vendor/lib64/hw/keystore.msm8992.so'
+build/make/core/base_rules.mk:510: warning: ignoring old commands for target `/aosp/out/target/product/bullhead/vendor/lib64/hw/keystore.msm8992.so'
+/aosp/out/target/product/bullhead/obj/CONFIG/kati_packaging/dist.mk was modified, regenerating...
+[  0% 483/60061] Building Kernel Config
+make: Entering directory '/aosp/kernel/lge/bullhead'
+  GEN     /aosp/out/target/product/bullhead/obj/KERNEL_OBJ/Makefile
+warning: (PCI_MSM && AMD_IOMMU) selects PCI_MSI which has unmet direct dependencies (PCI && ARCH_SUPPORTS_MSI)
+warning: (SND_SOC_APQ8074 && SND_SOC_MSM8994) selects SND_SOC_MSM_HDMI_CODEC_RX which has unmet direct dependencies (SOUND && !M68K && !UML && SND && SND_SOC && FB_MSM_MDSS_HDMI_PANEL && (SND_SOC_MSM8974 || SND_SOC_APQ8084 || SND_SOC_MSM8994))
+warning: (ARCH_MSM) selects DEVFREQ_GOV_MSM_BW_HWMON which has unmet direct dependencies (PM_DEVFREQ && (ARCH_MSM_KRAIT || ARCH_MSM_BIMC_BWMON))
+warning: (PCI_MSM && AMD_IOMMU) selects PCI_MSI which has unmet direct dependencies (PCI && ARCH_SUPPORTS_MSI)
+warning: (SND_SOC_APQ8074 && SND_SOC_MSM8994) selects SND_SOC_MSM_HDMI_CODEC_RX which has unmet direct dependencies (SOUND && !M68K && !UML && SND && SND_SOC && FB_MSM_MDSS_HDMI_PANEL && (SND_SOC_MSM8974 || SND_SOC_APQ8084 || SND_SOC_MSM8994))
+warning: (ARCH_MSM) selects DEVFREQ_GOV_MSM_BW_HWMON which has unmet direct dependencies (PM_DEVFREQ && (ARCH_MSM_KRAIT || ARCH_MSM_BIMC_BWMON))
+#
+# configuration written to .config
+#
+make: Leaving directory '/aosp/kernel/lge/bullhead'
+make: Entering directory '/aosp/kernel/lge/bullhead'
+  GEN     /aosp/out/target/product/bullhead/obj/KERNEL_OBJ/Makefile
+scripts/kconfig/conf --savedefconfig=defconfig Kconfig
+warning: (PCI_MSM && AMD_IOMMU) selects PCI_MSI which has unmet direct dependencies (PCI && ARCH_SUPPORTS_MSI)
+warning: (SND_SOC_APQ8074 && SND_SOC_MSM8994) selects SND_SOC_MSM_HDMI_CODEC_RX which has unmet direct dependencies (SOUND && !M68K && !UML && SND && SND_SOC && FB_MSM_MDSS_HDMI_PANEL && (SND_SOC_MSM8974 || SND_SOC_APQ8084 || SND_SOC_MSM8994))
+warning: (ARCH_MSM) selects DEVFREQ_GOV_MSM_BW_HWMON which has unmet direct dependencies (PM_DEVFREQ && (ARCH_MSM_KRAIT || ARCH_MSM_BIMC_BWMON))
+warning: (PCI_MSM && AMD_IOMMU) selects PCI_MSI which has unmet direct dependencies (PCI && ARCH_SUPPORTS_MSI)
+warning: (SND_SOC_APQ8074 && SND_SOC_MSM8994) selects SND_SOC_MSM_HDMI_CODEC_RX which has unmet direct dependencies (SOUND && !M68K && !UML && SND && SND_SOC && FB_MSM_MDSS_HDMI_PANEL && (SND_SOC_MSM8974 || SND_SOC_APQ8084 || SND_SOC_MSM8994))
+warning: (ARCH_MSM) selects DEVFREQ_GOV_MSM_BW_HWMON which has unmet direct dependencies (PM_DEVFREQ && (ARCH_MSM_KRAIT || ARCH_MSM_BIMC_BWMON))
+make: Leaving directory '/aosp/kernel/lge/bullhead'
+[  2% 1317/60061] Building Kernel
+make: Entering directory '/aosp/kernel/lge/bullhead'
+  GEN     /aosp/out/target/product/bullhead/obj/KERNEL_OBJ/Makefile
+scripts/kconfig/conf --silentoldconfig Kconfig
+warning: (PCI_MSM && AMD_IOMMU) selects PCI_MSI which has unmet direct dependencies (PCI && ARCH_SUPPORTS_MSI)
+warning: (SND_SOC_APQ8074 && SND_SOC_MSM8994) selects SND_SOC_MSM_HDMI_CODEC_RX which has unmet direct dependencies (SOUND && !M68K && !UML && SND && SND_SOC && FB_MSM_MDSS_HDMI_PANEL && (SND_SOC_MSM8974 || SND_SOC_APQ8084 || SND_SOC_MSM8994))
+warning: (ARCH_MSM) selects DEVFREQ_GOV_MSM_BW_HWMON which has unmet direct dependencies (PM_DEVFREQ && (ARCH_MSM_KRAIT || ARCH_MSM_BIMC_BWMON))
+warning: (PCI_MSM && AMD_IOMMU) selects PCI_MSI which has unmet direct dependencies (PCI && ARCH_SUPPORTS_MSI)
+warning: (SND_SOC_APQ8074 && SND_SOC_MSM8994) selects SND_SOC_MSM_HDMI_CODEC_RX which has unmet direct dependencies (SOUND && !M68K && !UML && SND && SND_SOC && FB_MSM_MDSS_HDMI_PANEL && (SND_SOC_MSM8974 || SND_SOC_APQ8084 || SND_SOC_MSM8994))
+warning: (ARCH_MSM) selects DEVFREQ_GOV_MSM_BW_HWMON which has unmet direct dependencies (PM_DEVFREQ && (ARCH_MSM_KRAIT || ARCH_MSM_BIMC_BWMON))
+  GEN     /aosp/out/target/product/bullhead/obj/KERNEL_OBJ/Makefile
+  CHK     include/generated/uapi/linux/version.h
+  CHK     include/generated/utsrelease.h
+  Using /aosp/kernel/lge/bullhead as source for kernel
+  CC      scripts/mod/devicetable-offsets.s
+  GEN     scripts/mod/devicetable-offsets.h
+  HOSTCC  scripts/mod/file2alias.o
+  HOSTLD  scripts/mod/modpost
+make[2]: Nothing to be done for 'dtbs'.
+make[2]: Nothing to be done for 'dtbs'.
+  CALL    /aosp/kernel/lge/bullhead/scripts/checksyscalls.sh
+  CHK     include/generated/compile.h
+  UPD     include/generated/compile.h
+  CC      init/version.o
+  LD      init/built-in.o
+  CC      drivers/staging/qcacld-2.0/CORE/SERVICES/WMA/wma.o
+  CC      drivers/staging/qcacld-2.0/CORE/CLD_TXRX/TXRX/ol_tx_send.o
+  CC      drivers/staging/qcacld-2.0/CORE/CLD_TXRX/TXRX/ol_tx_sched.o
+  CC      drivers/staging/qcacld-2.0/CORE/SERVICES/WMI/wmi_unified.o
+  CC      drivers/staging/qcacld-2.0/CORE/SERVICES/WMI/wmi_tlv_helper.o
+  CC      drivers/staging/qcacld-2.0/CORE/UTILS/FWLOG/dbglog_host.o
+  CC      drivers/staging/qcacld-2.0/CORE/SERVICES/HTC/htc.o
+  CC      drivers/staging/qcacld-2.0/CORE/SERVICES/HTC/htc_send.o
+  CC      drivers/staging/qcacld-2.0/CORE/SERVICES/HTC/htc_recv.o
+  CC      drivers/staging/qcacld-2.0/CORE/SERVICES/HTC/htc_services.o
+  CC      drivers/staging/qcacld-2.0/CORE/SERVICES/COMMON/adf/adf_nbuf.o
+  CC      drivers/staging/qcacld-2.0/CORE/SERVICES/COMMON/adf/adf_os_lock.o
+  CC      drivers/staging/qcacld-2.0/CORE/SERVICES/COMMON/adf/adf_os_mem.o
+  CC      drivers/staging/qcacld-2.0/CORE/SERVICES/COMMON/adf/linux/adf_os_defer_pvt.o
+  CC      drivers/staging/qcacld-2.0/CORE/SERVICES/COMMON/adf/linux/adf_os_lock_pvt.o
+  CC      drivers/staging/qcacld-2.0/CORE/SERVICES/HIF/ath_procfs.o
+  CC      drivers/staging/qcacld-2.0/CORE/SERVICES/HIF/PCIe/copy_engine.o
+  CC      drivers/staging/qcacld-2.0/CORE/SERVICES/HIF/PCIe/hif_pci.o
+  CC      drivers/staging/qcacld-2.0/CORE/SERVICES/HIF/PCIe/if_pci.o
+  CC      drivers/staging/qcacld-2.0/CORE/SERVICES/HIF/PCIe/regtable.o
+  CC      drivers/staging/qcacld-2.0/CORE/SERVICES/HIF/PCIe/mp_dev.o
+  CC      drivers/staging/qcacld-2.0/CORE/SERVICES/BMI/bmi.o
+  CC      drivers/staging/qcacld-2.0/CORE/SERVICES/BMI/ol_fw.o
+  CC      drivers/staging/qcacld-2.0/CORE/CLD_TXRX/HTT/htt_tx.o
+  CC      drivers/staging/qcacld-2.0/CORE/CLD_TXRX/HTT/htt.o
+  CC      drivers/staging/qcacld-2.0/CORE/CLD_TXRX/HTT/htt_t2h.o
+  CC      drivers/staging/qcacld-2.0/CORE/CLD_TXRX/HTT/htt_h2t.o
+  CC      drivers/staging/qcacld-2.0/CORE/CLD_TXRX/HTT/htt_fw_stats.o
+  CC      drivers/staging/qcacld-2.0/CORE/CLD_TXRX/HTT/htt_rx.o
+  CC      drivers/staging/qcacld-2.0/CORE/UTILS/PKTLOG/pktlog_ac.o
+  CC      drivers/staging/qcacld-2.0/CORE/UTILS/PKTLOG/pktlog_internal.o
+  CC      drivers/staging/qcacld-2.0/CORE/UTILS/PKTLOG/linux_ac.o
+  LD      drivers/staging/qcacld-2.0/wlan.o
+  LD      drivers/staging/qcacld-2.0/built-in.o
+  LD      drivers/staging/built-in.o
+  LD      drivers/built-in.o
+  LINK    vmlinux
+  LD      vmlinux.o
+  MODPOST vmlinux.o
+  GEN     .version
+  CHK     include/generated/compile.h
+  UPD     include/generated/compile.h
+  CC      init/version.o
+  LD      init/built-in.o
+  KSYM    .tmp_kallsyms1.o
+  KSYM    .tmp_kallsyms2.o
+  LD      vmlinux
+  SORTEX  vmlinux
+  SYSMAP  System.map
+  OBJCOPY arch/arm64/boot/Image
+  GZIP    arch/arm64/boot/Image.gz
+  CAT     arch/arm64/boot/Image.gz-dtb
+make: Leaving directory '/aosp/kernel/lge/bullhead'
+Building DTBs
+make: Entering directory '/aosp/kernel/lge/bullhead'
+  CC      scripts/mod/devicetable-offsets.s
+  GEN     scripts/mod/devicetable-offsets.h
+  HOSTCC  scripts/mod/file2alias.o
+  HOSTLD  scripts/mod/modpost
+make[2]: Nothing to be done for 'dtbs'.
+make[2]: Nothing to be done for 'dtbs'.
+make: Leaving directory '/aosp/kernel/lge/bullhead'
+[ 30% 18141/60061] Copy xml: /aosp/out/target/product/bullhead/vendor/etc/vintf/
+Warning: BOARD_SEPOLICY_VERS is not specified. Default to 0.0.
+[ 48% 29030/60061] //vendor/aosp/build/soong:generated_kernel_includes generate
+make: Entering directory '/aosp/kernel/lge/bullhead'
+  CHK     include/generated/uapi/linux/version.h
+  UPD     include/generated/uapi/linux/version.h
+  HOSTCC  scripts/basic/fixdep
+  WRAP    arch/arm64/include/generated/asm/bugs.h
+  WRAP    arch/arm64/include/generated/asm/checksum.h
+  WRAP    arch/arm64/include/generated/asm/clkdev.h
+  WRAP    arch/arm64/include/generated/asm/cputime.h
+  WRAP    arch/arm64/include/generated/asm/current.h
+  WRAP    arch/arm64/include/generated/asm/delay.h
+  WRAP    arch/arm64/include/generated/asm/div64.h
+  WRAP    arch/arm64/include/generated/asm/dma.h
+  WRAP    arch/arm64/include/generated/asm/emergency-restart.h
+  WRAP    arch/arm64/include/generated/asm/early_ioremap.h
+  WRAP    arch/arm64/include/generated/asm/errno.h
+  WRAP    arch/arm64/include/generated/asm/ftrace.h
+  WRAP    arch/arm64/include/generated/asm/hw_irq.h
+  WRAP    arch/arm64/include/generated/asm/ioctl.h
+  WRAP    arch/arm64/include/generated/asm/ioctls.h
+  WRAP    arch/arm64/include/generated/asm/ipcbuf.h
+  WRAP    arch/arm64/include/generated/asm/irq_regs.h
+  WRAP    arch/arm64/include/generated/asm/kdebug.h
+  WRAP    arch/arm64/include/generated/asm/kmap_types.h
+  WRAP    arch/arm64/include/generated/asm/kvm_para.h
+  WRAP    arch/arm64/include/generated/asm/local.h
+  WRAP    arch/arm64/include/generated/asm/local64.h
+  WRAP    arch/arm64/include/generated/asm/mcs_spinlock.h
+  WRAP    arch/arm64/include/generated/asm/mman.h
+  WRAP    arch/arm64/include/generated/asm/msgbuf.h
+  WRAP    arch/arm64/include/generated/asm/mutex.h
+  WRAP    arch/arm64/include/generated/asm/pci.h
+  WRAP    arch/arm64/include/generated/asm/poll.h
+  WRAP    arch/arm64/include/generated/asm/resource.h
+  WRAP    arch/arm64/include/generated/asm/rwsem.h
+  WRAP    arch/arm64/include/generated/asm/scatterlist.h
+  WRAP    arch/arm64/include/generated/asm/sections.h
+  WRAP    arch/arm64/include/generated/asm/segment.h
+  WRAP    arch/arm64/include/generated/asm/sembuf.h
+  WRAP    arch/arm64/include/generated/asm/serial.h
+  WRAP    arch/arm64/include/generated/asm/shmbuf.h
+  WRAP    arch/arm64/include/generated/asm/simd.h
+  WRAP    arch/arm64/include/generated/asm/sizes.h
+  WRAP    arch/arm64/include/generated/asm/socket.h
+  WRAP    arch/arm64/include/generated/asm/sockios.h
+  WRAP    arch/arm64/include/generated/asm/swab.h
+  WRAP    arch/arm64/include/generated/asm/switch_to.h
+  WRAP    arch/arm64/include/generated/asm/termbits.h
+  WRAP    arch/arm64/include/generated/asm/termios.h
+  WRAP    arch/arm64/include/generated/asm/topology.h
+  WRAP    arch/arm64/include/generated/asm/trace_clock.h
+  WRAP    arch/arm64/include/generated/asm/types.h
+  WRAP    arch/arm64/include/generated/asm/unaligned.h
+  WRAP    arch/arm64/include/generated/asm/user.h
+  WRAP    arch/arm64/include/generated/asm/vga.h
+  WRAP    arch/arm64/include/generated/asm/xor.h
+  WRAP    arch/arm64/include/generated/uapi/asm/kvm_para.h
+  HOSTCC  scripts/unifdef
+  INSTALL include/asm-generic (35 files)
+  INSTALL include/drm (18 files)
+  INSTALL include/mtd (5 files)
+  INSTALL include/rdma (6 files)
+  INSTALL include/media (20 files)
+  INSTALL include/linux/byteorder (2 files)
+  INSTALL include/linux/../../../usr/include/linux/staging/android/uapi (2 files)
+  INSTALL include/scsi/fc (4 files)
+  INSTALL include/scsi/ufs (2 files)
+  INSTALL include/linux/caif (2 files)
+  INSTALL include/scsi (5 files)
+  INSTALL include/sound (18 files)
+  INSTALL include/linux/can (5 files)
+  INSTALL include/video (5 files)
+  INSTALL include/xen (2 files)
+  INSTALL include/uapi (0 file)
+  INSTALL include/linux/dvb (8 files)
+  INSTALL include/linux/hdlc (1 file)
+  INSTALL include/linux/hsi (1 file)
+  INSTALL include/linux/isdn (1 file)
+  INSTALL include/linux/mfd/wcd9xxx (3 files)
+  INSTALL include/linux/mmc (3 files)
+  INSTALL include/linux/netfilter/ipset (4 files)
+  INSTALL include/linux/mfd (1 file)
+  INSTALL include/linux/netfilter_arp (2 files)
+  INSTALL include/linux/netfilter_bridge (18 files)
+  INSTALL include/linux/netfilter_ipv4 (11 files)
+  INSTALL include/linux/netfilter (78 files)
+  INSTALL include/linux/netfilter_ipv6 (12 files)
+  INSTALL include/linux/nfsd (5 files)
+  INSTALL include/linux/raid (2 files)
+  INSTALL include/linux/spi (1 file)
+  INSTALL include/linux/sunrpc (1 file)
+  INSTALL include/linux/tc_act (7 files)
+  INSTALL include/linux/usb (13 files)
+  INSTALL include/linux/tc_ematch (4 files)
+  INSTALL include/linux (445 files)
+  INSTALL include/linux/wimax (1 file)
+  INSTALL include/asm (35 files)
+make: Leaving directory '/aosp/kernel/lge/bullhead'
+[ 48% 29067/60061] target  C++: libwifi-hal-qcom <= hardware/qcom/wlan/qcwcn/wif
+hardware/qcom/wlan/qcwcn/wifi_hal/nan_ind.cpp:834:9: warning: unannotated fall-through between switch labels [-Wimplicit-fallthrough]
+        default:
+        ^
+hardware/qcom/wlan/qcwcn/wifi_hal/nan_ind.cpp:834:9: note: insert '[[fallthrough]];' to silence this warning
+        default:
+        ^
+        [[fallthrough]]; 
+hardware/qcom/wlan/qcwcn/wifi_hal/nan_ind.cpp:834:9: note: insert 'break;' to avoid fall-through
+        default:
+        ^
+        break; 
+1 warning generated.
+[ 48% 29114/60061] target  C++: libqservice <= hardware/qcom/display/msm8994/lib
+hardware/qcom/display/msm8994/libqservice/IQClient.cpp:53:25: warning: implicit conversion changes signedness: 'uint32_t' (aka 'unsigned int') to 'int32_t' (aka 'int') [-Wsign-conversion]
+        data.writeInt32(command);
+             ~~~~~~~~~~ ^~~~~~~
+hardware/qcom/display/msm8994/libqservice/IQClient.cpp:72:37: warning: implicit conversion changes signedness: 'int32_t' (aka 'int') to 'uint32_t' (aka 'unsigned int') [-Wsign-conversion]
+            uint32_t command = data.readInt32();
+                     ~~~~~~~   ~~~~~^~~~~~~~~~~
+2 warnings generated.
+[ 48% 29115/60061] target  C++: libqservice <= hardware/qcom/display/msm8994/lib
+hardware/qcom/display/msm8994/libqservice/IQService.cpp:82:32: warning: implicit conversion changes signedness: 'uid_t' (aka 'unsigned int') to 'const int' [-Wsign-conversion]
+    const int callerUid = ipc->getCallingUid();
+              ~~~~~~~~~   ~~~~~^~~~~~~~~~~~~~~
+hardware/qcom/display/msm8994/libqservice/IQService.cpp:123:19: warning: implicit conversion changes signedness: 'int' to 'size_t' (aka 'unsigned long') [-Wsign-conversion]
+    snprintf(buf, size, "/proc/%d/cmdline", pid);
+    ~~~~~~~~      ^~~~
+hardware/qcom/display/msm8994/libqservice/IQService.cpp:126:33: warning: implicit conversion changes signedness: 'int' to 'size_t' (aka 'unsigned long') [-Wsign-conversion]
+        strlcpy(buf, "Unknown", size);
+        ~~~~~~~                 ^~~~
+hardware/qcom/display/msm8994/libqservice/IQService.cpp:128:42: warning: implicit conversion changes signedness: 'int' to 'size_t' (aka 'unsigned long') [-Wsign-conversion]
+        ssize_t len = read(fd, buf, size - 1);
+                      ~~~~          ~~~~~^~~
+4 warnings generated.
+[ 48% 29152/60061] target  C++: libc2dcolorconvert <= hardware/qcom/media/msm897
+hardware/qcom/media/msm8974/libc2dcolorconvert/C2DColorConverter.cpp:486:66: warning: format specifies type 'int' but the argument has type 'size_t' (aka 'unsigned long') [-Wformat]
+            ALOGV("NV12_2k, width = %d, height = %d, size = %d", width, height, size);
+                                    ~~                           ^~~~~
+                                    %zu
+system/core/liblog/include/log/log_main.h:204:15: note: expanded from macro 'ALOGV'
+      __ALOGV(__VA_ARGS__);          \
+              ^~~~~~~~~~~
+system/core/liblog/include/log/log_main.h:198:56: note: expanded from macro '__ALOGV'
+#define __ALOGV(...) ((void)ALOG(LOG_VERBOSE, LOG_TAG, __VA_ARGS__))
+                                                       ^~~~~~~~~~~
+system/core/liblog/include/log/log_main.h:331:67: note: expanded from macro 'ALOG'
+#define ALOG(priority, tag, ...) LOG_PRI(ANDROID_##priority, tag, __VA_ARGS__)
+                                                                  ^~~~~~~~~~~
+system/core/liblog/include/log/log_main.h:94:69: note: expanded from macro 'LOG_PRI'
+#define LOG_PRI(priority, tag, ...) android_printLog(priority, tag, __VA_ARGS__)
+                                                                    ^~~~~~~~~~~
+system/core/liblog/include/log/log_main.h:85:34: note: expanded from macro 'android_printLog'
+  __android_log_print(prio, tag, __VA_ARGS__)
+                                 ^~~~~~~~~~~
+hardware/qcom/media/msm8974/libc2dcolorconvert/C2DColorConverter.cpp:486:73: warning: format specifies type 'int' but the argument has type 'size_t' (aka 'unsigned long') [-Wformat]
+            ALOGV("NV12_2k, width = %d, height = %d, size = %d", width, height, size);
+                                                 ~~                     ^~~~~~
+                                                 %zu
+system/core/liblog/include/log/log_main.h:204:15: note: expanded from macro 'ALOGV'
+      __ALOGV(__VA_ARGS__);          \
+              ^~~~~~~~~~~
+system/core/liblog/include/log/log_main.h:198:56: note: expanded from macro '__ALOGV'
+#define __ALOGV(...) ((void)ALOG(LOG_VERBOSE, LOG_TAG, __VA_ARGS__))
+                                                       ^~~~~~~~~~~
+system/core/liblog/include/log/log_main.h:331:67: note: expanded from macro 'ALOG'
+#define ALOG(priority, tag, ...) LOG_PRI(ANDROID_##priority, tag, __VA_ARGS__)
+                                                                  ^~~~~~~~~~~
+system/core/liblog/include/log/log_main.h:94:69: note: expanded from macro 'LOG_PRI'
+#define LOG_PRI(priority, tag, ...) android_printLog(priority, tag, __VA_ARGS__)
+                                                                    ^~~~~~~~~~~
+system/core/liblog/include/log/log_main.h:85:34: note: expanded from macro 'android_printLog'
+  __android_log_print(prio, tag, __VA_ARGS__)
+                                 ^~~~~~~~~~~
+hardware/qcom/media/msm8974/libc2dcolorconvert/C2DColorConverter.cpp:511:40: warning: format specifies type 'int' but the argument has type 'size_t' (aka 'unsigned long') [-Wformat]
+                status, bufFD, bufPtr, bufLen, KGSL_USER_MEM_TYPE_ION);
+                                       ^~~~~~
+system/core/liblog/include/log/log_main.h:265:52: note: expanded from macro 'ALOGE'
+#define ALOGE(...) ((void)ALOG(LOG_ERROR, LOG_TAG, __VA_ARGS__))
+                                                   ^~~~~~~~~~~
+system/core/liblog/include/log/log_main.h:331:67: note: expanded from macro 'ALOG'
+#define ALOG(priority, tag, ...) LOG_PRI(ANDROID_##priority, tag, __VA_ARGS__)
+                                                                  ^~~~~~~~~~~
+system/core/liblog/include/log/log_main.h:94:69: note: expanded from macro 'LOG_PRI'
+#define LOG_PRI(priority, tag, ...) android_printLog(priority, tag, __VA_ARGS__)
+                                                                    ^~~~~~~~~~~
+system/core/liblog/include/log/log_main.h:85:34: note: expanded from macro 'android_printLog'
+  __android_log_print(prio, tag, __VA_ARGS__)
+                                 ^~~~~~~~~~~
+hardware/qcom/media/msm8974/libc2dcolorconvert/C2DColorConverter.cpp:515:37: warning: format specifies type 'int' but the argument has type 'size_t' (aka 'unsigned long') [-Wformat]
+            gpuaddr, bufFD, bufPtr, bufLen);
+                                    ^~~~~~
+system/core/liblog/include/log/log_main.h:204:15: note: expanded from macro 'ALOGV'
+      __ALOGV(__VA_ARGS__);          \
+              ^~~~~~~~~~~
+system/core/liblog/include/log/log_main.h:198:56: note: expanded from macro '__ALOGV'
+#define __ALOGV(...) ((void)ALOG(LOG_VERBOSE, LOG_TAG, __VA_ARGS__))
+                                                       ^~~~~~~~~~~
+system/core/liblog/include/log/log_main.h:331:67: note: expanded from macro 'ALOG'
+#define ALOG(priority, tag, ...) LOG_PRI(ANDROID_##priority, tag, __VA_ARGS__)
+                                                                  ^~~~~~~~~~~
+system/core/liblog/include/log/log_main.h:94:69: note: expanded from macro 'LOG_PRI'
+#define LOG_PRI(priority, tag, ...) android_printLog(priority, tag, __VA_ARGS__)
+                                                                    ^~~~~~~~~~~
+system/core/liblog/include/log/log_main.h:85:34: note: expanded from macro 'android_printLog'
+  __android_log_print(prio, tag, __VA_ARGS__)
+                                 ^~~~~~~~~~~
+4 warnings generated.
+[ 48% 29169/60061] target  C++: libOmxVenc <= hardware/qcom/media/msm8974/mm-vid
+hardware/qcom/media/msm8974/mm-video-v4l2/vidc/venc/src/video_encoder_device_v4l2.cpp:2425:13: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+            entropy.entropysel, entropy.cabacmodel);
+            ^~~~~~~~~~~~~~~~~~
+hardware/qcom/media/msm8974/mm-video-v4l2/vidc/../vidc/common/inc/vidc_debug.h:60:23: note: expanded from macro 'DEBUG_PRINT_HIGH'
+          ALOGD(fmt,##args)
+                ~~~   ^~~~
+system/core/liblog/include/log/log_main.h:226:52: note: expanded from macro 'ALOGD'
+#define ALOGD(...) ((void)ALOG(LOG_DEBUG, LOG_TAG, __VA_ARGS__))
+                                                   ^~~~~~~~~~~
+system/core/liblog/include/log/log_main.h:331:67: note: expanded from macro 'ALOG'
+#define ALOG(priority, tag, ...) LOG_PRI(ANDROID_##priority, tag, __VA_ARGS__)
+                                                                  ^~~~~~~~~~~
+system/core/liblog/include/log/log_main.h:94:69: note: expanded from macro 'LOG_PRI'
+#define LOG_PRI(priority, tag, ...) android_printLog(priority, tag, __VA_ARGS__)
+                                                                    ^~~~~~~~~~~
+system/core/liblog/include/log/log_main.h:85:34: note: expanded from macro 'android_printLog'
+  __android_log_print(prio, tag, __VA_ARGS__)
+                                 ^~~~~~~~~~~
+hardware/qcom/media/msm8974/mm-video-v4l2/vidc/venc/src/video_encoder_device_v4l2.cpp:2445:17: warning: format specifies type 'unsigned int' but the argument has type 'unsigned long' [-Wformat]
+                intra_period.num_pframes + intra_period.num_bframes + 1);
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+hardware/qcom/media/msm8974/mm-video-v4l2/vidc/../vidc/common/inc/vidc_debug.h:52:23: note: expanded from macro 'DEBUG_PRINT_INFO'
+          ALOGI(fmt,##args)
+                ~~~   ^~~~
+system/core/liblog/include/log/log_main.h:239:51: note: expanded from macro 'ALOGI'
+#define ALOGI(...) ((void)ALOG(LOG_INFO, LOG_TAG, __VA_ARGS__))
+                                                  ^~~~~~~~~~~
+system/core/liblog/include/log/log_main.h:331:67: note: expanded from macro 'ALOG'
+#define ALOG(priority, tag, ...) LOG_PRI(ANDROID_##priority, tag, __VA_ARGS__)
+                                                                  ^~~~~~~~~~~
+system/core/liblog/include/log/log_main.h:94:69: note: expanded from macro 'LOG_PRI'
+#define LOG_PRI(priority, tag, ...) android_printLog(priority, tag, __VA_ARGS__)
+                                                                    ^~~~~~~~~~~
+system/core/liblog/include/log/log_main.h:85:34: note: expanded from macro 'android_printLog'
+  __android_log_print(prio, tag, __VA_ARGS__)
+                                 ^~~~~~~~~~~
+hardware/qcom/media/msm8974/mm-video-v4l2/vidc/venc/src/video_encoder_device_v4l2.cpp:2816:67: warning: format specifies type 'unsigned int' but the argument has type 'unsigned long' [-Wformat]
+                                DEBUG_PRINT_ERROR("Failed setting color format in in etb %x", m_sVenc_cfg.inputformat);
+                                                                                         ~~   ^~~~~~~~~~~~~~~~~~~~~~~
+                                                                                         %lx
+hardware/qcom/media/msm8974/mm-video-v4l2/vidc/../vidc/common/inc/vidc_debug.h:48:23: note: expanded from macro 'DEBUG_PRINT_ERROR'
+          ALOGE(fmt,##args)
+                ~~~   ^~~~
+system/core/liblog/include/log/log_main.h:265:52: note: expanded from macro 'ALOGE'
+#define ALOGE(...) ((void)ALOG(LOG_ERROR, LOG_TAG, __VA_ARGS__))
+                                                   ^~~~~~~~~~~
+system/core/liblog/include/log/log_main.h:331:67: note: expanded from macro 'ALOG'
+#define ALOG(priority, tag, ...) LOG_PRI(ANDROID_##priority, tag, __VA_ARGS__)
+                                                                  ^~~~~~~~~~~
+system/core/liblog/include/log/log_main.h:94:69: note: expanded from macro 'LOG_PRI'
+#define LOG_PRI(priority, tag, ...) android_printLog(priority, tag, __VA_ARGS__)
+                                                                    ^~~~~~~~~~~
+system/core/liblog/include/log/log_main.h:85:34: note: expanded from macro 'android_printLog'
+  __android_log_print(prio, tag, __VA_ARGS__)
+                                 ^~~~~~~~~~~
+3 warnings generated.
+[ 48% 29184/60061] target  C++: libOmxVdec <= hardware/qcom/media/msm8974/mm-vid
+hardware/qcom/media/msm8974/mm-video-v4l2/vidc/vdec/src/omx_vdec_msm8974.cpp:4313:25: warning: unannotated fall-through between switch labels [-Wimplicit-fallthrough]
+                        case V4L2_CID_MPEG_VIDC_PERF_LEVEL_NOMINAL:
+                        ^
+hardware/qcom/media/msm8974/mm-video-v4l2/vidc/vdec/src/omx_vdec_msm8974.cpp:4313:25: note: insert '[[fallthrough]];' to silence this warning
+                        case V4L2_CID_MPEG_VIDC_PERF_LEVEL_NOMINAL:
+                        ^
+                        [[fallthrough]]; 
+hardware/qcom/media/msm8974/mm-video-v4l2/vidc/vdec/src/omx_vdec_msm8974.cpp:4313:25: note: insert 'break;' to avoid fall-through
+                        case V4L2_CID_MPEG_VIDC_PERF_LEVEL_NOMINAL:
+                        ^
+                        break; 
+hardware/qcom/media/msm8974/mm-video-v4l2/vidc/vdec/src/omx_vdec_msm8974.cpp:10916:14: warning: comparison of two values with different enumeration types in switch statement ('OMX_COLOR_FORMATTYPE' and 'OMX_QCOM_COLOR_FORMATTYPE') [-Wenum-compare-switch]
+        case QOMX_COLOR_FORMATYUV420PackedSemiPlanar32m:
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+hardware/qcom/media/msm8974/mm-video-v4l2/vidc/vdec/src/omx_vdec_msm8974.cpp:10968:17: warning: format specifies type 'int' but the argument has type 'size_t' (aka 'unsigned long') [-Wformat]
+                i, img->mPlane[i].mOffset, img->mPlane[i].mColInc, img->mPlane[i].mRowInc);
+                ^
+hardware/qcom/media/msm8974/mm-video-v4l2/vidc/../vidc/common/inc/vidc_debug.h:56:23: note: expanded from macro 'DEBUG_PRINT_LOW'
+          ALOGD(fmt,##args)
+                ~~~   ^~~~
+system/core/liblog/include/log/log_main.h:226:52: note: expanded from macro 'ALOGD'
+#define ALOGD(...) ((void)ALOG(LOG_DEBUG, LOG_TAG, __VA_ARGS__))
+                                                   ^~~~~~~~~~~
+system/core/liblog/include/log/log_main.h:331:67: note: expanded from macro 'ALOG'
+#define ALOG(priority, tag, ...) LOG_PRI(ANDROID_##priority, tag, __VA_ARGS__)
+                                                                  ^~~~~~~~~~~
+system/core/liblog/include/log/log_main.h:94:69: note: expanded from macro 'LOG_PRI'
+#define LOG_PRI(priority, tag, ...) android_printLog(priority, tag, __VA_ARGS__)
+                                                                    ^~~~~~~~~~~
+system/core/liblog/include/log/log_main.h:85:34: note: expanded from macro 'android_printLog'
+  __android_log_print(prio, tag, __VA_ARGS__)
+                                 ^~~~~~~~~~~
+3 warnings generated.
+[ 48% 29232/60061] target thumb C++: libOmxVenc_32 <= hardware/qcom/media/msm897
+hardware/qcom/media/msm8974/mm-video-v4l2/vidc/venc/src/video_encoder_device_v4l2.cpp:2425:13: warning: format specifies type 'int' but the argument has type 'unsigned long' [-Wformat]
+            entropy.entropysel, entropy.cabacmodel);
+            ^~~~~~~~~~~~~~~~~~
+hardware/qcom/media/msm8974/mm-video-v4l2/vidc/../vidc/common/inc/vidc_debug.h:60:23: note: expanded from macro 'DEBUG_PRINT_HIGH'
+          ALOGD(fmt,##args)
+                ~~~   ^~~~
+system/core/liblog/include/log/log_main.h:226:52: note: expanded from macro 'ALOGD'
+#define ALOGD(...) ((void)ALOG(LOG_DEBUG, LOG_TAG, __VA_ARGS__))
+                                                   ^~~~~~~~~~~
+system/core/liblog/include/log/log_main.h:331:67: note: expanded from macro 'ALOG'
+#define ALOG(priority, tag, ...) LOG_PRI(ANDROID_##priority, tag, __VA_ARGS__)
+                                                                  ^~~~~~~~~~~
+system/core/liblog/include/log/log_main.h:94:69: note: expanded from macro 'LOG_PRI'
+#define LOG_PRI(priority, tag, ...) android_printLog(priority, tag, __VA_ARGS__)
+                                                                    ^~~~~~~~~~~
+system/core/liblog/include/log/log_main.h:85:34: note: expanded from macro 'android_printLog'
+  __android_log_print(prio, tag, __VA_ARGS__)
+                                 ^~~~~~~~~~~
+hardware/qcom/media/msm8974/mm-video-v4l2/vidc/venc/src/video_encoder_device_v4l2.cpp:2445:17: warning: format specifies type 'unsigned int' but the argument has type 'unsigned long' [-Wformat]
+                intra_period.num_pframes + intra_period.num_bframes + 1);
+                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+hardware/qcom/media/msm8974/mm-video-v4l2/vidc/../vidc/common/inc/vidc_debug.h:52:23: note: expanded from macro 'DEBUG_PRINT_INFO'
+          ALOGI(fmt,##args)
+                ~~~   ^~~~
+system/core/liblog/include/log/log_main.h:239:51: note: expanded from macro 'ALOGI'
+#define ALOGI(...) ((void)ALOG(LOG_INFO, LOG_TAG, __VA_ARGS__))
+                                                  ^~~~~~~~~~~
+system/core/liblog/include/log/log_main.h:331:67: note: expanded from macro 'ALOG'
+#define ALOG(priority, tag, ...) LOG_PRI(ANDROID_##priority, tag, __VA_ARGS__)
+                                                                  ^~~~~~~~~~~
+system/core/liblog/include/log/log_main.h:94:69: note: expanded from macro 'LOG_PRI'
+#define LOG_PRI(priority, tag, ...) android_printLog(priority, tag, __VA_ARGS__)
+                                                                    ^~~~~~~~~~~
+system/core/liblog/include/log/log_main.h:85:34: note: expanded from macro 'android_printLog'
+  __android_log_print(prio, tag, __VA_ARGS__)
+                                 ^~~~~~~~~~~
+hardware/qcom/media/msm8974/mm-video-v4l2/vidc/venc/src/video_encoder_device_v4l2.cpp:2816:67: warning: format specifies type 'unsigned int' but the argument has type 'unsigned long' [-Wformat]
+                                DEBUG_PRINT_ERROR("Failed setting color format in in etb %x", m_sVenc_cfg.inputformat);
+                                                                                         ~~   ^~~~~~~~~~~~~~~~~~~~~~~
+                                                                                         %lx
+hardware/qcom/media/msm8974/mm-video-v4l2/vidc/../vidc/common/inc/vidc_debug.h:48:23: note: expanded from macro 'DEBUG_PRINT_ERROR'
+          ALOGE(fmt,##args)
+                ~~~   ^~~~
+system/core/liblog/include/log/log_main.h:265:52: note: expanded from macro 'ALOGE'
+#define ALOGE(...) ((void)ALOG(LOG_ERROR, LOG_TAG, __VA_ARGS__))
+                                                   ^~~~~~~~~~~
+system/core/liblog/include/log/log_main.h:331:67: note: expanded from macro 'ALOG'
+#define ALOG(priority, tag, ...) LOG_PRI(ANDROID_##priority, tag, __VA_ARGS__)
+                                                                  ^~~~~~~~~~~
+system/core/liblog/include/log/log_main.h:94:69: note: expanded from macro 'LOG_PRI'
+#define LOG_PRI(priority, tag, ...) android_printLog(priority, tag, __VA_ARGS__)
+                                                                    ^~~~~~~~~~~
+system/core/liblog/include/log/log_main.h:85:34: note: expanded from macro 'android_printLog'
+  __android_log_print(prio, tag, __VA_ARGS__)
+                                 ^~~~~~~~~~~
+3 warnings generated.
+[ 48% 29250/60061] target thumb C++: libqservice_32 <= hardware/qcom/display/msm
+hardware/qcom/display/msm8994/libqservice/IQClient.cpp:53:25: warning: implicit conversion changes signedness: 'uint32_t' (aka 'unsigned int') to 'int32_t' (aka 'int') [-Wsign-conversion]
+        data.writeInt32(command);
+             ~~~~~~~~~~ ^~~~~~~
+hardware/qcom/display/msm8994/libqservice/IQClient.cpp:72:37: warning: implicit conversion changes signedness: 'int32_t' (aka 'int') to 'uint32_t' (aka 'unsigned int') [-Wsign-conversion]
+            uint32_t command = data.readInt32();
+                     ~~~~~~~   ~~~~~^~~~~~~~~~~
+2 warnings generated.
+[ 48% 29251/60061] target thumb C++: libqservice_32 <= hardware/qcom/display/msm
+hardware/qcom/display/msm8994/libqservice/IQService.cpp:82:32: warning: implicit conversion changes signedness: 'uid_t' (aka 'unsigned int') to 'const int' [-Wsign-conversion]
+    const int callerUid = ipc->getCallingUid();
+              ~~~~~~~~~   ~~~~~^~~~~~~~~~~~~~~
+hardware/qcom/display/msm8994/libqservice/IQService.cpp:123:19: warning: implicit conversion changes signedness: 'int' to 'size_t' (aka 'unsigned int') [-Wsign-conversion]
+    snprintf(buf, size, "/proc/%d/cmdline", pid);
+    ~~~~~~~~      ^~~~
+hardware/qcom/display/msm8994/libqservice/IQService.cpp:126:33: warning: implicit conversion changes signedness: 'int' to 'size_t' (aka 'unsigned int') [-Wsign-conversion]
+        strlcpy(buf, "Unknown", size);
+        ~~~~~~~                 ^~~~
+hardware/qcom/display/msm8994/libqservice/IQService.cpp:128:42: warning: implicit conversion changes signedness: 'int' to 'size_t' (aka 'unsigned int') [-Wsign-conversion]
+        ssize_t len = read(fd, buf, size - 1);
+                      ~~~~          ~~~~~^~~
+4 warnings generated.
+[ 48% 29255/60061] target thumb C++: libOmxVdec_32 <= hardware/qcom/media/msm897
+hardware/qcom/media/msm8974/mm-video-v4l2/vidc/vdec/src/omx_vdec_msm8974.cpp:4313:25: warning: unannotated fall-through between switch labels [-Wimplicit-fallthrough]
+                        case V4L2_CID_MPEG_VIDC_PERF_LEVEL_NOMINAL:
+                        ^
+hardware/qcom/media/msm8974/mm-video-v4l2/vidc/vdec/src/omx_vdec_msm8974.cpp:4313:25: note: insert '[[fallthrough]];' to silence this warning
+                        case V4L2_CID_MPEG_VIDC_PERF_LEVEL_NOMINAL:
+                        ^
+                        [[fallthrough]]; 
+hardware/qcom/media/msm8974/mm-video-v4l2/vidc/vdec/src/omx_vdec_msm8974.cpp:4313:25: note: insert 'break;' to avoid fall-through
+                        case V4L2_CID_MPEG_VIDC_PERF_LEVEL_NOMINAL:
+                        ^
+                        break; 
+hardware/qcom/media/msm8974/mm-video-v4l2/vidc/vdec/src/omx_vdec_msm8974.cpp:10916:14: warning: comparison of two values with different enumeration types in switch statement ('OMX_COLOR_FORMATTYPE' and 'OMX_QCOM_COLOR_FORMATTYPE') [-Wenum-compare-switch]
+        case QOMX_COLOR_FORMATYUV420PackedSemiPlanar32m:
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2 warnings generated.
+[ 53% 31979/60061] //external/iproute2/misc:ss yacc ssfilter.y
+external/iproute2/misc/ssfilter.y: conflicts: 35 shift/reduce
+[ 54% 32725/60061] //packages/apps/DocumentsUI:DocumentsUI aapt2 link [common]
+warn: removing resource com.android.documentsui:string/apk_file_type without required default value.
+warn: removing resource com.android.documentsui:string/archive_file_type without required default value.
+warn: removing resource com.android.documentsui:string/audio_extension_file_type without required default value.
+warn: removing resource com.android.documentsui:string/audio_file_type without required default value.
+warn: removing resource com.android.documentsui:string/directory_type without required default value.
+warn: removing resource com.android.documentsui:string/excel_file_type without required default value.
+warn: removing resource com.android.documentsui:string/gdoc_file_type without required default value.
+warn: removing resource com.android.documentsui:string/gdraw_file_type without required default value.
+warn: removing resource com.android.documentsui:string/generic_extention_file_type without required default value.
+warn: removing resource com.android.documentsui:string/generic_file_type without required default value.
+warn: removing resource com.android.documentsui:string/gform_file_type without required default value.
+warn: removing resource com.android.documentsui:string/gmap_file_type without required default value.
+warn: removing resource com.android.documentsui:string/gsheet_file_type without required default value.
+warn: removing resource com.android.documentsui:string/gsite_file_type without required default value.
+warn: removing resource com.android.documentsui:string/gslides_file_type without required default value.
+warn: removing resource com.android.documentsui:string/gtable_file_type without required default value.
+warn: removing resource com.android.documentsui:string/html_file_type without required default value.
+warn: removing resource com.android.documentsui:string/image_extension_file_type without required default value.
+warn: removing resource com.android.documentsui:string/image_file_type without required default value.
+warn: removing resource com.android.documentsui:string/pdf_file_type without required default value.
+warn: removing resource com.android.documentsui:string/ppt_file_type without required default value.
+warn: removing resource com.android.documentsui:string/txt_file_type without required default value.
+warn: removing resource com.android.documentsui:string/video_extension_file_type without required default value.
+warn: removing resource com.android.documentsui:string/video_file_type without required default value.
+warn: removing resource com.android.documentsui:string/word_file_type without required default value.
+[ 54% 32751/60061] //prebuilts/sdk/current/androidx:androidx.car_car-nodeps aapt
+warn: removing resource androidx.car:string/action_bar_expand_collapse_button without required default value.
+[ 54% 32753/60061] //packages/apps/Traceur:Traceur aapt2 link [common]
+warn: removing resource com.android.traceur:string/system_traces_storage_title without required default value.
+[ 54% 32768/60061] //frameworks/base/packages/SystemUI:SystemUI-core aapt2 link 
+warn: removing resource com.android.systemui:string/car_add_user without required default value.
+warn: removing resource com.android.systemui:string/car_guest without required default value.
+warn: removing resource com.android.systemui:string/car_new_user without required default value.
+warn: removing resource com.android.systemui:string/start_guest_session without required default value.
+warn: removing resource com.android.systemui:string/user_add_user_message_setup without required default value.
+warn: removing resource com.android.systemui:string/user_add_user_message_update without required default value.
+[ 64% 39009/60061] //external/conscrypt:conscrypt-nojarjar javac [linux_glibc co
+1 warning
+[ 65% 39109/60061] //tools/apifinder:java_api_used_by_mainline_module javac [lin
+[parsing started SimpleFileObject[/aosp/tools/apifinder/src/main/com/android/apifinder/JavaApiUsedByMainlineModule.java]]
+[parsing completed 136ms]
+[search path for source files: ]
+[search path for class files: prebuilts/jdk/jdk8/linux-x86/jre/lib/jce.jar,prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar,/aosp/out/soong/.intermediates/external/error_prone/error_prone_core/linux_glibc_common/combined/error_prone_core.jar,/aosp/out/soong/.intermediates/external/dagger2/dagger2-auto-service/linux_glibc_common/combined/dagger2-auto-service.jar]
+[search path for source files: ]
+[search path for class files: prebuilts/jdk/jdk8/linux-x86/jre/lib/jce.jar,prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar,/aosp/out/soong/.intermediates/external/error_prone/error_prone_core/linux_glibc_common/combined/error_prone_core.jar,/aosp/out/soong/.intermediates/external/dagger2/dagger2-auto-service/linux_glibc_common/combined/dagger2-auto-service.jar]
+[search path for source files: ]
+[search path for class files: prebuilts/jdk/jdk8/linux-x86/jre/lib/jce.jar,prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar,/aosp/out/soong/.intermediates/external/error_prone/error_prone_core/linux_glibc_common/combined/error_prone_core.jar,/aosp/out/soong/.intermediates/external/dagger2/dagger2-auto-service/linux_glibc_common/combined/dagger2-auto-service.jar]
+[search path for source files: ]
+[search path for class files: prebuilts/jdk/jdk8/linux-x86/jre/lib/jce.jar,prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar,/aosp/out/soong/.intermediates/external/error_prone/error_prone_core/linux_glibc_common/combined/error_prone_core.jar,/aosp/out/soong/.intermediates/external/dagger2/dagger2-auto-service/linux_glibc_common/combined/dagger2-auto-service.jar]
+[search path for source files: ]
+[search path for class files: prebuilts/jdk/jdk8/linux-x86/jre/lib/jce.jar,prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar,/aosp/out/soong/.intermediates/external/error_prone/error_prone_core/linux_glibc_common/combined/error_prone_core.jar,/aosp/out/soong/.intermediates/external/dagger2/dagger2-auto-service/linux_glibc_common/combined/dagger2-auto-service.jar]
+[search path for source files: ]
+[search path for class files: prebuilts/jdk/jdk8/linux-x86/jre/lib/jce.jar,prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar,/aosp/out/soong/.intermediates/external/error_prone/error_prone_core/linux_glibc_common/combined/error_prone_core.jar,/aosp/out/soong/.intermediates/external/dagger2/dagger2-auto-service/linux_glibc_common/combined/dagger2-auto-service.jar]
+[loading /aosp/out/soong/.intermediates/external/error_prone/error_prone_core/linux_glibc_common/combined/error_prone_core.jar(/com/google/errorprone/BugPattern.class)]
+[loading /aosp/out/soong/.intermediates/external/error_prone/error_prone_core/linux_glibc_common/combined/error_prone_core.jar(/com/google/errorprone/BugPattern$SeverityLevel.class)]
+[search path for source files: ]
+[search path for class files: prebuilts/jdk/jdk8/linux-x86/jre/lib/jce.jar,prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar,/aosp/out/soong/.intermediates/external/error_prone/error_prone_core/linux_glibc_common/combined/error_prone_core.jar,/aosp/out/soong/.intermediates/external/dagger2/dagger2-auto-service/linux_glibc_common/combined/dagger2-auto-service.jar]
+[search path for source files: ]
+[search path for class files: prebuilts/jdk/jdk8/linux-x86/jre/lib/jce.jar,prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar,/aosp/out/soong/.intermediates/external/error_prone/error_prone_core/linux_glibc_common/combined/error_prone_core.jar,/aosp/out/soong/.intermediates/external/dagger2/dagger2-auto-service/linux_glibc_common/combined/dagger2-auto-service.jar]
+[loading /aosp/out/soong/.intermediates/external/dagger2/dagger2-auto-service/linux_glibc_common/combined/dagger2-auto-service.jar(/com/google/auto/service/AutoService.class)]
+[loading /aosp/out/soong/.intermediates/external/error_prone/error_prone_core/linux_glibc_common/combined/error_prone_core.jar(/com/google/errorprone/VisitorState.class)]
+[search path for source files: ]
+[search path for class files: prebuilts/jdk/jdk8/linux-x86/jre/lib/jce.jar,prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar,/aosp/out/soong/.intermediates/external/error_prone/error_prone_core/linux_glibc_common/combined/error_prone_core.jar,/aosp/out/soong/.intermediates/external/dagger2/dagger2-auto-service/linux_glibc_common/combined/dagger2-auto-service.jar]
+[loading /aosp/out/soong/.intermediates/external/error_prone/error_prone_core/linux_glibc_common/combined/error_prone_core.jar(/com/google/errorprone/bugpatterns/BugChecker.class)]
+[loading /aosp/out/soong/.intermediates/external/error_prone/error_prone_core/linux_glibc_common/combined/error_prone_core.jar(/com/google/errorprone/bugpatterns/BugChecker$MethodInvocationTreeMatcher.class)]
+[loading /aosp/out/soong/.intermediates/external/error_prone/error_prone_core/linux_glibc_common/combined/error_prone_core.jar(/com/google/errorprone/bugpatterns/BugChecker$NewClassTreeMatcher.class)]
+[search path for source files: ]
+[search path for class files: prebuilts/jdk/jdk8/linux-x86/jre/lib/jce.jar,prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar,/aosp/out/soong/.intermediates/external/error_prone/error_prone_core/linux_glibc_common/combined/error_prone_core.jar,/aosp/out/soong/.intermediates/external/dagger2/dagger2-auto-service/linux_glibc_common/combined/dagger2-auto-service.jar]
+[loading /aosp/out/soong/.intermediates/external/error_prone/error_prone_core/linux_glibc_common/combined/error_prone_core.jar(/com/google/errorprone/matchers/Description.class)]
+[search path for source files: ]
+[search path for class files: prebuilts/jdk/jdk8/linux-x86/jre/lib/jce.jar,prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar,/aosp/out/soong/.intermediates/external/error_prone/error_prone_core/linux_glibc_common/combined/error_prone_core.jar,/aosp/out/soong/.intermediates/external/dagger2/dagger2-auto-service/linux_glibc_common/combined/dagger2-auto-service.jar]
+[loading /aosp/out/soong/.intermediates/external/error_prone/error_prone_core/linux_glibc_common/combined/error_prone_core.jar(/com/google/errorprone/util/ASTHelpers.class)]
+[search path for source files: ]
+[search path for class files: prebuilts/jdk/jdk8/linux-x86/jre/lib/jce.jar,prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar,/aosp/out/soong/.intermediates/external/error_prone/error_prone_core/linux_glibc_common/combined/error_prone_core.jar,/aosp/out/soong/.intermediates/external/dagger2/dagger2-auto-service/linux_glibc_common/combined/dagger2-auto-service.jar]
+[search path for source files: ]
+[search path for class files: prebuilts/jdk/jdk8/linux-x86/jre/lib/jce.jar,prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar,/aosp/out/soong/.intermediates/external/error_prone/error_prone_core/linux_glibc_common/combined/error_prone_core.jar,/aosp/out/soong/.intermediates/external/dagger2/dagger2-auto-service/linux_glibc_common/combined/dagger2-auto-service.jar]
+[search path for source files: ]
+[search path for class files: prebuilts/jdk/jdk8/linux-x86/jre/lib/jce.jar,prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar,/aosp/out/soong/.intermediates/external/error_prone/error_prone_core/linux_glibc_common/combined/error_prone_core.jar,/aosp/out/soong/.intermediates/external/dagger2/dagger2-auto-service/linux_glibc_common/combined/dagger2-auto-service.jar]
+[search path for source files: ]
+[search path for class files: prebuilts/jdk/jdk8/linux-x86/jre/lib/jce.jar,prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar,/aosp/out/soong/.intermediates/external/error_prone/error_prone_core/linux_glibc_common/combined/error_prone_core.jar,/aosp/out/soong/.intermediates/external/dagger2/dagger2-auto-service/linux_glibc_common/combined/dagger2-auto-service.jar]
+[loading /aosp/out/soong/.intermediates/external/error_prone/error_prone_core/linux_glibc_common/combined/error_prone_core.jar(/com/sun/source/tree/MethodInvocationTree.class)]
+[loading /aosp/out/soong/.intermediates/external/error_prone/error_prone_core/linux_glibc_common/combined/error_prone_core.jar(/com/sun/source/tree/NewClassTree.class)]
+[search path for source files: ]
+[search path for class files: prebuilts/jdk/jdk8/linux-x86/jre/lib/jce.jar,prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar,/aosp/out/soong/.intermediates/external/error_prone/error_prone_core/linux_glibc_common/combined/error_prone_core.jar,/aosp/out/soong/.intermediates/external/dagger2/dagger2-auto-service/linux_glibc_common/combined/dagger2-auto-service.jar]
+[search path for source files: ]
+[search path for class files: prebuilts/jdk/jdk8/linux-x86/jre/lib/jce.jar,prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar,/aosp/out/soong/.intermediates/external/error_prone/error_prone_core/linux_glibc_common/combined/error_prone_core.jar,/aosp/out/soong/.intermediates/external/dagger2/dagger2-auto-service/linux_glibc_common/combined/dagger2-auto-service.jar]
+[search path for source files: ]
+[search path for class files: prebuilts/jdk/jdk8/linux-x86/jre/lib/jce.jar,prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar,/aosp/out/soong/.intermediates/external/error_prone/error_prone_core/linux_glibc_common/combined/error_prone_core.jar,/aosp/out/soong/.intermediates/external/dagger2/dagger2-auto-service/linux_glibc_common/combined/dagger2-auto-service.jar]
+[loading /aosp/out/soong/.intermediates/external/error_prone/error_prone_core/linux_glibc_common/combined/error_prone_core.jar(/com/sun/tools/javac/code/Symbol.class)]
+[loading /aosp/out/soong/.intermediates/external/error_prone/error_prone_core/linux_glibc_common/combined/error_prone_core.jar(/com/sun/tools/javac/code/Symbol$MethodSymbol.class)]
+[loading /aosp/out/soong/.intermediates/external/error_prone/error_prone_core/linux_glibc_common/combined/error_prone_core.jar(/com/sun/tools/javac/code/Symbol$VarSymbol.class)]
+[search path for source files: ]
+[search path for class files: prebuilts/jdk/jdk8/linux-x86/jre/lib/jce.jar,prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar,/aosp/out/soong/.intermediates/external/error_prone/error_prone_core/linux_glibc_common/combined/error_prone_core.jar,/aosp/out/soong/.intermediates/external/dagger2/dagger2-auto-service/linux_glibc_common/combined/dagger2-auto-service.jar]
+[search path for source files: ]
+[search path for class files: prebuilts/jdk/jdk8/linux-x86/jre/lib/jce.jar,prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar,/aosp/out/soong/.intermediates/external/error_prone/error_prone_core/linux_glibc_common/combined/error_prone_core.jar,/aosp/out/soong/.intermediates/external/dagger2/dagger2-auto-service/linux_glibc_common/combined/dagger2-auto-service.jar]
+[loading /aosp/prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar(/java/util/ArrayList.class)]
+[loading /aosp/prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar(/java/util/List.class)]
+[search path for source files: ]
+[search path for class files: prebuilts/jdk/jdk8/linux-x86/jre/lib/jce.jar,prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar,/aosp/out/soong/.intermediates/external/error_prone/error_prone_core/linux_glibc_common/combined/error_prone_core.jar,/aosp/out/soong/.intermediates/external/dagger2/dagger2-auto-service/linux_glibc_common/combined/dagger2-auto-service.jar]
+[search path for source files: ]
+[search path for class files: prebuilts/jdk/jdk8/linux-x86/jre/lib/jce.jar,prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar,/aosp/out/soong/.intermediates/external/error_prone/error_prone_core/linux_glibc_common/combined/error_prone_core.jar,/aosp/out/soong/.intermediates/external/dagger2/dagger2-auto-service/linux_glibc_common/combined/dagger2-auto-service.jar]
+[search path for source files: ]
+[search path for class files: prebuilts/jdk/jdk8/linux-x86/jre/lib/jce.jar,prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar,/aosp/out/soong/.intermediates/external/error_prone/error_prone_core/linux_glibc_common/combined/error_prone_core.jar,/aosp/out/soong/.intermediates/external/dagger2/dagger2-auto-service/linux_glibc_common/combined/dagger2-auto-service.jar]
+[search path for source files: ]
+[search path for class files: prebuilts/jdk/jdk8/linux-x86/jre/lib/jce.jar,prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar,/aosp/out/soong/.intermediates/external/error_prone/error_prone_core/linux_glibc_common/combined/error_prone_core.jar,/aosp/out/soong/.intermediates/external/dagger2/dagger2-auto-service/linux_glibc_common/combined/dagger2-auto-service.jar]
+[loading /aosp/prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar(/javax/lang/model/element/ElementKind.class)]
+[loading /aosp/prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar(/javax/lang/model/element/Modifier.class)]
+[loading /aosp/out/soong/.intermediates/external/error_prone/error_prone_core/linux_glibc_common/combined/error_prone_core.jar(/com/google/errorprone/matchers/Suppressible.class)]
+[loading /aosp/prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar(/java/lang/Object.class)]
+[search path for source files: ]
+[search path for class files: prebuilts/jdk/jdk8/linux-x86/jre/lib/jce.jar,prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar,/aosp/out/soong/.intermediates/external/error_prone/error_prone_core/linux_glibc_common/combined/error_prone_core.jar,/aosp/out/soong/.intermediates/external/dagger2/dagger2-auto-service/linux_glibc_common/combined/dagger2-auto-service.jar]
+[loading /aosp/prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar(/java/io/Serializable.class)]
+[loading /aosp/prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar(/java/lang/String.class)]
+[loading /aosp/prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar(/java/lang/Enum.class)]
+[loading /aosp/prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar(/java/lang/Comparable.class)]
+[search path for source files: ]
+[search path for class files: prebuilts/jdk/jdk8/linux-x86/jre/lib/jce.jar,prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar,/aosp/out/soong/.intermediates/external/error_prone/error_prone_core/linux_glibc_common/combined/error_prone_core.jar,/aosp/out/soong/.intermediates/external/dagger2/dagger2-auto-service/linux_glibc_common/combined/dagger2-auto-service.jar]
+[loading /aosp/prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar(/java/lang/annotation/Retention.class)]
+[loading /aosp/prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar(/java/lang/annotation/RetentionPolicy.class)]
+[loading /aosp/out/soong/.intermediates/external/error_prone/error_prone_core/linux_glibc_common/combined/error_prone_core.jar(/com/google/errorprone/BugPattern$LinkType.class)]
+[loading /aosp/out/soong/.intermediates/external/error_prone/error_prone_core/linux_glibc_common/combined/error_prone_core.jar(/com/google/errorprone/BugPattern$ProvidesFix.class)]
+[loading /aosp/out/soong/.intermediates/external/error_prone/error_prone_core/linux_glibc_common/combined/error_prone_core.jar(/com/google/errorprone/BugPattern$Category.class)]
+[loading /aosp/prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar(/java/lang/annotation/Target.class)]
+[loading /aosp/prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar(/java/lang/annotation/ElementType.class)]
+[loading /aosp/prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar(/java/lang/annotation/Annotation.class)]
+[loading /aosp/prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar(/java/lang/Class.class)]
+[loading /aosp/prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar(/java/lang/Override.class)]
+Round 1:
+	input files: {com.android.apifinder.JavaApiUsedByMainlineModule}
+	annotations: [com.google.auto.service.AutoService, com.google.errorprone.BugPattern, java.lang.Override]
+	last round: false
+Processor com.google.auto.service.processor.AutoServiceProcessor matches [com.google.auto.service.AutoService] and returns true.
+Round 2:
+	input files: {}
+	annotations: []
+	last round: true
+[checking com.android.apifinder.JavaApiUsedByMainlineModule]
+[loading /aosp/prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar(/java/util/Set.class)]
+[loading /aosp/prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar(/java/lang/AutoCloseable.class)]
+[loading /aosp/prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar(/javax/lang/model/element/Element.class)]
+[loading /aosp/prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar(/javax/lang/model/AnnotatedConstruct.class)]
+[loading /aosp/out/soong/.intermediates/external/error_prone/error_prone_core/linux_glibc_common/combined/error_prone_core.jar(/com/sun/tools/javac/code/AnnoConstruct.class)]
+[loading /aosp/prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar(/java/util/Collection.class)]
+[loading /aosp/prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar(/java/lang/Iterable.class)]
+[loading /aosp/out/soong/.intermediates/external/error_prone/error_prone_core/linux_glibc_common/combined/error_prone_core.jar(/com/sun/tools/javac/code/Symbol$ClassSymbol.class)]
+[loading /aosp/out/soong/.intermediates/external/error_prone/error_prone_core/linux_glibc_common/combined/error_prone_core.jar(/com/sun/tools/javac/code/Symbol$TypeSymbol.class)]
+[loading /aosp/prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar(/javax/lang/model/element/ExecutableElement.class)]
+[loading /aosp/prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar(/javax/lang/model/element/Parameterizable.class)]
+[search path for source files: ]
+[search path for class files: prebuilts/jdk/jdk8/linux-x86/jre/lib/jce.jar,prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar,/aosp/out/soong/.intermediates/external/error_prone/error_prone_core/linux_glibc_common/combined/error_prone_core.jar,/aosp/out/soong/.intermediates/external/dagger2/dagger2-auto-service/linux_glibc_common/combined/dagger2-auto-service.jar]
+[loading /aosp/out/soong/.intermediates/external/error_prone/error_prone_core/linux_glibc_common/combined/error_prone_core.jar(/com/sun/tools/javac/util/List.class)]
+[loading /aosp/prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar(/java/util/AbstractCollection.class)]
+[loading /aosp/prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar(/java/lang/StringBuilder.class)]
+[loading /aosp/prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar(/java/util/AbstractList.class)]
+[loading /aosp/prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar(/javax/lang/model/element/VariableElement.class)]
+[loading /aosp/out/soong/.intermediates/external/error_prone/error_prone_core/linux_glibc_common/combined/error_prone_core.jar(/com/sun/tools/javac/code/Type.class)]
+[search path for source files: ]
+[search path for class files: prebuilts/jdk/jdk8/linux-x86/jre/lib/jce.jar,prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar,/aosp/out/soong/.intermediates/external/error_prone/error_prone_core/linux_glibc_common/combined/error_prone_core.jar,/aosp/out/soong/.intermediates/external/dagger2/dagger2-auto-service/linux_glibc_common/combined/dagger2-auto-service.jar]
+[loading /aosp/prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar(/javax/lang/model/type/TypeMirror.class)]
+[loading /aosp/prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar(/java/lang/CharSequence.class)]
+[loading /aosp/prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar(/java/lang/AbstractStringBuilder.class)]
+[loading /aosp/prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar(/java/lang/Appendable.class)]
+[loading /aosp/prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar(/java/lang/Byte.class)]
+[loading /aosp/prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar(/java/lang/Character.class)]
+[loading /aosp/prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar(/java/lang/Short.class)]
+[loading /aosp/prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar(/java/lang/Long.class)]
+[loading /aosp/prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar(/java/lang/Float.class)]
+[loading /aosp/prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar(/java/lang/Integer.class)]
+[loading /aosp/prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar(/java/lang/Double.class)]
+[loading /aosp/prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar(/java/lang/Boolean.class)]
+[loading /aosp/prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar(/java/lang/Void.class)]
+[loading /aosp/out/soong/.intermediates/external/error_prone/error_prone_core/linux_glibc_common/combined/error_prone_core.jar(/com/sun/source/tree/MemberReferenceTree.class)]
+[loading /aosp/out/soong/.intermediates/external/error_prone/error_prone_core/linux_glibc_common/combined/error_prone_core.jar(/com/sun/source/tree/ExpressionTree.class)]
+[loading /aosp/out/soong/.intermediates/external/error_prone/error_prone_core/linux_glibc_common/combined/error_prone_core.jar(/com/sun/source/tree/Tree.class)]
+[loading /aosp/out/soong/.intermediates/external/error_prone/error_prone_core/linux_glibc_common/combined/error_prone_core.jar(/com/sun/source/tree/VariableTree.class)]
+[loading /aosp/out/soong/.intermediates/external/error_prone/error_prone_core/linux_glibc_common/combined/error_prone_core.jar(/com/sun/source/tree/MethodTree.class)]
+[loading /aosp/out/soong/.intermediates/external/error_prone/error_prone_core/linux_glibc_common/combined/error_prone_core.jar(/com/sun/source/tree/PackageTree.class)]
+[loading /aosp/out/soong/.intermediates/external/error_prone/error_prone_core/linux_glibc_common/combined/error_prone_core.jar(/com/sun/source/tree/ClassTree.class)]
+[loading /aosp/out/soong/.intermediates/external/error_prone/error_prone_core/linux_glibc_common/combined/error_prone_core.jar(/com/sun/source/tree/TreeVisitor.class)]
+[loading /aosp/out/soong/.intermediates/external/error_prone/error_prone_core/linux_glibc_common/combined/error_prone_core.jar(/com/sun/tools/javac/util/Name.class)]
+[loading /aosp/prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar(/javax/lang/model/element/Name.class)]
+[loading /aosp/prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar(/java/util/Locale.class)]
+[search path for source files: ]
+[search path for class files: prebuilts/jdk/jdk8/linux-x86/jre/lib/jce.jar,prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar,/aosp/out/soong/.intermediates/external/error_prone/error_prone_core/linux_glibc_common/combined/error_prone_core.jar,/aosp/out/soong/.intermediates/external/dagger2/dagger2-auto-service/linux_glibc_common/combined/dagger2-auto-service.jar]
+[loading /aosp/out/soong/.intermediates/external/error_prone/error_prone_core/linux_glibc_common/combined/error_prone_core.jar(/com/sun/tools/javac/tree/JCTree.class)]
+[loading /aosp/out/soong/.intermediates/external/error_prone/error_prone_core/linux_glibc_common/combined/error_prone_core.jar(/com/sun/tools/javac/util/JCDiagnostic.class)]
+[loading /aosp/out/soong/.intermediates/external/error_prone/error_prone_core/linux_glibc_common/combined/error_prone_core.jar(/com/sun/tools/javac/util/JCDiagnostic$DiagnosticPosition.class)]
+[loading /aosp/out/soong/.intermediates/external/error_prone/error_prone_core/linux_glibc_common/combined/error_prone_core.jar(/com/google/errorprone/matchers/Description$Builder.class)]
+[loading /aosp/prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar(/java/util/Iterator.class)]
+[loading /aosp/prebuilts/jdk/jdk8/linux-x86/jre/lib/rt.jar(/java/lang/StringBuffer.class)]
+[wrote DirectoryFileObject[/aosp/out/soong/.intermediates/tools/apifinder/java_api_used_by_mainline_module/linux_glibc_common/javac/classes:com/android/apifinder/JavaApiUsedByMainlineModule.class]]
+[total 2891ms]
+[ 80% 48487/60061] //external/compiler-rt:libcompiler_rt clang lib/builtins/arm/
+external/compiler-rt/lib/builtins/arm/comparesf2.S:99:5: warning: applying IT instruction to more than one subsequent instruction is deprecated
+    ite ls
+    ^
+external/compiler-rt/lib/builtins/arm/comparesf2.S:128:5: warning: applying IT instruction to more than one subsequent instruction is deprecated
+    ite ls
+    ^
+external/compiler-rt/lib/builtins/arm/comparesf2.S:142:5: warning: applying IT instruction to more than one subsequent instruction is deprecated
+    ite ls
+    ^
+[ 81% 49018/60061] //libcore/mmodules/core_platform_api:core-platform-api-stubs 
+
+/aosp/external/bouncycastle/repackaged/bcprov/src/main/java/com/android/org/bouncycastle/asn1/x500/style/BCStyle.java:17: warning: Public class com.android.org.bouncycastle.asn1.x500.style.BCStyle stripped of unavailable superclass com.android.org.bouncycastle.asn1.x500.style.AbstractX500NameStyle [HiddenSuperclass]
+[ 96% 58070/60061] //packages/services/Car/car-lib:android.car-stub-docs Metalav
+
+/aosp/packages/services/Car/car-lib/src/android/car/CarAppFocusManager.java:31: warning: Public class android.car.CarAppFocusManager stripped of unavailable superclass android.car.CarManagerBase [HiddenSuperclass]
+/aosp/packages/services/Car/car-lib/src/android/car/CarInfoManager.java:28: warning: Public class android.car.CarInfoManager stripped of unavailable superclass android.car.CarManagerBase [HiddenSuperclass]
+/aosp/packages/services/Car/car-lib/src/android/car/content/pm/CarPackageManager.java:32: warning: Public class android.car.content.pm.CarPackageManager stripped of unavailable superclass android.car.CarManagerBase [HiddenSuperclass]
+/aosp/packages/services/Car/car-lib/src/android/car/drivingstate/CarUxRestrictionsManager.java:39: warning: Public class android.car.drivingstate.CarUxRestrictionsManager stripped of unavailable superclass android.car.CarManagerBase [HiddenSuperclass]
+/aosp/packages/services/Car/car-lib/src/android/car/hardware/CarSensorManager.java:42: warning: Public class android.car.hardware.CarSensorManager stripped of unavailable superclass android.car.CarManagerBase [HiddenSuperclass]
+/aosp/packages/services/Car/car-lib/src/android/car/hardware/property/CarPropertyManager.java:43: warning: Public class android.car.hardware.property.CarPropertyManager stripped of unavailable superclass android.car.CarManagerBase [HiddenSuperclass]
+/aosp/packages/services/Car/car-lib/src/android/car/media/CarAudioManager.java:36: warning: Public class android.car.media.CarAudioManager stripped of unavailable superclass android.car.CarManagerBase [HiddenSuperclass]
+/aosp/packages/services/Car/car-lib/src/android/car/settings/CarConfigurationManager.java:24: warning: Public class android.car.settings.CarConfigurationManager stripped of unavailable superclass android.car.CarManagerBase [HiddenSuperclass]
+[ 97% 58846/60061] R8: /aosp/out/target/common/obj/APPS/Shell_intermediates/dex/
+Warning: Library class android.os.BugreportManager$DumpstateListener extends program class android.os.IDumpstateListener$Stub
+Warning: Library class android.os.BugreportManager$DumpstateListener extends program class android.os.IDumpstateListener$Stub
+[ 98% 59317/60061] hiddenapi stub flags
+hiddenapi W 08-04 06:14:15 583593 583593 art_dex_file_loader.cc:406] Can't mmap dex file /aosp/out/soong/.intermediates/frameworks/base/test-base/android.test.base.stubs/android_common/dex/android.test.base.stubs.jar!classes.dex directly; please zipalign to 4 bytes. Falling back to extracting file.
+hiddenapi W 08-04 06:14:33 583593 583593 art_dex_file_loader.cc:406] Can't mmap dex file /aosp/out/soong/.intermediates/libcore/mmodules/core_platform_api/core.platform.api.stubs/android_common/dex/core.platform.api.stubs.jar!classes.dex directly; please zipalign to 4 bytes. Falling back to extracting file.
+[ 98% 59356/60061] //frameworks/base/packages/SystemUI:SystemUI-core kotlinc [co
+frameworks/base/packages/SystemUI/src/com/android/systemui/statusbar/PulseExpansionHandler.kt:121:38: warning: 'get(Class<T!>!): T!' is deprecated. Deprecated in Java
+        mFalsingManager = Dependency.get(FalsingManager::class.java)
+                                     ^
+[ 99% 59643/60061] //art/build/apex:art-check-release-apex-gen generate art-chec
+--bitness=auto, trying to autodetect. This may be incorrect!
+  Detected multilib
+[ 99% 60043/60061] ----- Making recovery image ------
+Generating changelog...
+----- Making uncompressed recovery ramdisk ------
+[ 99% 60059/60061] Package target files: /aosp/out/target/product/bullhead/obj/P
+ls: /aosp/out/target/product/bullhead/install: No such file or directory
+2020-08-04 06:18:14 - common.py - WARNING : Failed to read PRODUCT/build.prop
+2020-08-04 06:18:14 - common.py - WARNING : Failed to read PRODUCT/etc/build.prop
+2020-08-04 06:18:14 - common.py - WARNING : Failed to read PRODUCT_SERVICES/build.prop
+2020-08-04 06:18:14 - common.py - WARNING : Failed to read PRODUCT_SERVICES/etc/build.prop
+2020-08-04 06:18:14 - common.py - WARNING : Failed to read ODM/build.prop
+2020-08-04 06:18:14 - common.py - WARNING : Failed to read ODM/etc/build.prop
+2020-08-04 06:18:24 - common.py - WARNING : Failed to read PRODUCT/build.prop
+2020-08-04 06:18:24 - common.py - WARNING : Failed to read PRODUCT/etc/build.prop
+2020-08-04 06:18:24 - common.py - WARNING : Failed to read PRODUCT_SERVICES/build.prop
+2020-08-04 06:18:24 - common.py - WARNING : Failed to read PRODUCT_SERVICES/etc/build.prop
+2020-08-04 06:18:24 - common.py - WARNING : Failed to read ODM/build.prop
+2020-08-04 06:18:24 - common.py - WARNING : Failed to read ODM/etc/build.prop
+2020-08-04 06:18:24 - add_img_to_target_files - INFO    : 
+
+++++ boot  ++++
+
+
+2020-08-04 06:18:24 - common.py - INFO    : building image from target_files BOOT...
+2020-08-04 06:18:24 - common.py - INFO    :   Running: "mkbootfs -f /aosp/out/target/product/bullhead/obj/PACKAGING/target_files_intermediates/aosp_bullhead-target_files-1880c07db2/META/boot_filesystem_config.txt /aosp/out/target/product/bullhead/obj/PACKAGING/target_files_intermediates/aosp_bullhead-target_files-1880c07db2/BOOT/RAMDISK"
+2020-08-04 06:18:24 - common.py - INFO    :   Running: "minigzip"
+2020-08-04 06:18:24 - common.py - INFO    :   Running: "/aosp/out/host/linux-x86/bin/mkbootimg --kernel /aosp/out/target/product/bullhead/obj/PACKAGING/target_files_intermediates/aosp_bullhead-target_files-1880c07db2/BOOT/kernel --cmdline console=ttyHSL0,115200,n8 androidboot.hardware=bullhead boot_cpus=0-5 lpm_levels.sleep_disabled=1 msm_poweroff.download_mode=0 loop.max_part=7 androidboot.boot_devices=soc.0/f9824900.sdhci buildvariant=userdebug --base 0x00000000 --pagesize 4096 --ramdisk_offset 0x02000000 --ramdisk_offset 0x02000000 --tags_offset 0x01E00000 --os_version 10 --os_patch_level 2020-07-05 --ramdisk /aosp/out/soong/.temp/tmpsQ09k8 --output /aosp/out/soong/.temp/tmpCKhUnc"
+2020-08-04 06:18:24 - common.py - INFO    : 
+2020-08-04 06:18:25 - add_img_to_target_files - INFO    : 
+
+++++ recovery  ++++
+
+
+2020-08-04 06:18:25 - common.py - INFO    : building image from target_files RECOVERY...
+2020-08-04 06:18:25 - common.py - INFO    :   Running: "mkbootfs -f /aosp/out/target/product/bullhead/obj/PACKAGING/target_files_intermediates/aosp_bullhead-target_files-1880c07db2/META/recovery_filesystem_config.txt /aosp/out/target/product/bullhead/obj/PACKAGING/target_files_intermediates/aosp_bullhead-target_files-1880c07db2/RECOVERY/RAMDISK"
+2020-08-04 06:18:25 - common.py - INFO    :   Running: "minigzip"
+2020-08-04 06:18:25 - common.py - INFO    :   Running: "/aosp/out/host/linux-x86/bin/mkbootimg --kernel /aosp/out/target/product/bullhead/obj/PACKAGING/target_files_intermediates/aosp_bullhead-target_files-1880c07db2/RECOVERY/kernel --cmdline console=ttyHSL0,115200,n8 androidboot.hardware=bullhead boot_cpus=0-5 lpm_levels.sleep_disabled=1 msm_poweroff.download_mode=0 loop.max_part=7 androidboot.boot_devices=soc.0/f9824900.sdhci buildvariant=userdebug --base 0x00000000 --pagesize 4096 --ramdisk_offset 0x02000000 --ramdisk_offset 0x02000000 --tags_offset 0x01E00000 --os_version 10 --os_patch_level 2020-07-05 --ramdisk /aosp/out/soong/.temp/tmpvgF9d7 --output /aosp/out/soong/.temp/tmpwWI1Lf"
+2020-08-04 06:18:25 - common.py - INFO    : 
+2020-08-04 06:18:26 - add_img_to_target_files - INFO    : 
+
+++++ recovery (two-step image)  ++++
+
+
+2020-08-04 06:18:26 - common.py - INFO    : building image from target_files RECOVERY...
+2020-08-04 06:18:26 - common.py - INFO    :   Running: "mkbootfs -f /aosp/out/target/product/bullhead/obj/PACKAGING/target_files_intermediates/aosp_bullhead-target_files-1880c07db2/META/recovery_filesystem_config.txt /aosp/out/target/product/bullhead/obj/PACKAGING/target_files_intermediates/aosp_bullhead-target_files-1880c07db2/RECOVERY/RAMDISK"
+2020-08-04 06:18:26 - common.py - INFO    :   Running: "minigzip"
+2020-08-04 06:18:26 - common.py - INFO    :   Running: "/aosp/out/host/linux-x86/bin/mkbootimg --kernel /aosp/out/target/product/bullhead/obj/PACKAGING/target_files_intermediates/aosp_bullhead-target_files-1880c07db2/RECOVERY/kernel --cmdline console=ttyHSL0,115200,n8 androidboot.hardware=bullhead boot_cpus=0-5 lpm_levels.sleep_disabled=1 msm_poweroff.download_mode=0 loop.max_part=7 androidboot.boot_devices=soc.0/f9824900.sdhci buildvariant=userdebug --base 0x00000000 --pagesize 4096 --ramdisk_offset 0x02000000 --ramdisk_offset 0x02000000 --tags_offset 0x01E00000 --os_version 10 --os_patch_level 2020-07-05 --ramdisk /aosp/out/soong/.temp/tmpFQkoDJ --output /aosp/out/soong/.temp/tmpeGNefg"
+2020-08-04 06:18:26 - common.py - INFO    : 
+2020-08-04 06:18:27 - add_img_to_target_files - INFO    : 
+
+++++ system  ++++
+
+
+2020-08-04 06:18:27 - add_img_to_target_files - INFO    : Building new recovery patch
+2020-08-04 06:18:27 - common.py - INFO    :   Running: "imgdiff -b /aosp/out/target/product/bullhead/obj/PACKAGING/target_files_intermediates/aosp_bullhead-target_files-1880c07db2/SYSTEM/etc/recovery-resource.dat /aosp/out/soong/.temp/tmpt5crGQ /aosp/out/soong/.temp/tmpcxIiVP /aosp/out/soong/.temp/tmpHMVU0H"
+2020-08-04 06:18:35 - common.py - INFO    : putting script in bin/install-recovery.sh
+2020-08-04 06:18:35 - add_img_to_target_files - INFO    : creating system.img...
+2020-08-04 06:18:36 - common.py - INFO    :   Running: "mkuserimg_mke2fs -s /aosp/out/soong/.temp/tmpfIGVMl /aosp/out/target/product/bullhead/obj/PACKAGING/target_files_intermediates/aosp_bullhead-target_files-1880c07db2/IMAGES/system.img ext4 / 3221225472 -j 0 -T 1230768000 -C /aosp/out/soong/.temp/merged_fs_configsGbSN_.txt -B /aosp/out/target/product/bullhead/obj/PACKAGING/target_files_intermediates/aosp_bullhead-target_files-1880c07db2/IMAGES/system.map -L / -i 4096 -M 0 -U 072eac7a-055b-5daf-815d-01909196f147 -S be81c5e8-bf5b-5576-b145-fa83fc1374cc --inode_size 256 /aosp/out/target/product/bullhead/obj/PACKAGING/target_files_intermediates/aosp_bullhead-target_files-1880c07db2/META/file_contexts.bin"
+2020-08-04 06:18:43 - common.py - INFO    : 06:18:37 mkuserimg_mke2fs.py INFO: Env: {'E2FSPROGS_FAKE_TIME': '1230768000', 'MKE2FS_CONFIG': '/aosp/out/soong/.temp/tmpE0V0aB'}
+06:18:37 mkuserimg_mke2fs.py INFO: Running: mke2fs -O ^has_journal -L / -N 4096 -I 256 -M / -m 0 -U 072eac7a-055b-5daf-815d-01909196f147 -E android_sparse,hash_seed=be81c5e8-bf5b-5576-b145-fa83fc1374cc -t ext4 -b 4096 /aosp/out/target/product/bullhead/obj/PACKAGING/target_files_intermediates/aosp_bullhead-target_files-1880c07db2/IMAGES/system.img 786432
+06:18:37 mkuserimg_mke2fs.py INFO: Env: {'E2FSPROGS_FAKE_TIME': '1230768000'}
+06:18:37 mkuserimg_mke2fs.py INFO: Running: e2fsdroid -T 1230768000 -C /aosp/out/soong/.temp/merged_fs_configsGbSN_.txt -B /aosp/out/target/product/bullhead/obj/PACKAGING/target_files_intermediates/aosp_bullhead-target_files-1880c07db2/IMAGES/system.map -S /aosp/out/target/product/bullhead/obj/PACKAGING/target_files_intermediates/aosp_bullhead-target_files-1880c07db2/META/file_contexts.bin -f /aosp/out/soong/.temp/tmpfIGVMl -a / /aosp/out/target/product/bullhead/obj/PACKAGING/target_files_intermediates/aosp_bullhead-target_files-1880c07db2/IMAGES/system.img
+mke2fs 1.44.4 (18-Aug-2018)
+Creating filesystem with 786432 4k blocks and 4224 inodes
+Filesystem UUID: 072eac7a-055b-5daf-815d-01909196f147
+Superblock backups stored on blocks: 
+	32768, 98304, 163840, 229376, 294912
+
+Allocating group tables: done                            
+Writing inode tables: done                            
+Writing superblocks and filesystem accounting information: done 
+
+
+loaded 3632 fs_config entries
+Created filesystem with 3641/4224 inodes and 512250/786432 blocks
+2020-08-04 06:18:43 - common.py - INFO    :   Running: "simg2img /aosp/out/target/product/bullhead/obj/PACKAGING/target_files_intermediates/aosp_bullhead-target_files-1880c07db2/IMAGES/system.img /aosp/out/target/product/bullhead/obj/PACKAGING/target_files_intermediates/aosp_bullhead-target_files-1880c07db2/IMAGES/unsparse_system.img"
+2020-08-04 06:18:44 - common.py - INFO    : 
+2020-08-04 06:18:44 - common.py - INFO    :   Running: "e2fsck -f -n /aosp/out/target/product/bullhead/obj/PACKAGING/target_files_intermediates/aosp_bullhead-target_files-1880c07db2/IMAGES/unsparse_system.img"
+2020-08-04 06:18:44 - common.py - INFO    : e2fsck 1.44.4 (18-Aug-2018)
+Pass 1: Checking inodes, blocks, and sizes
+Pass 2: Checking directory structure
+Pass 3: Checking directory connectivity
+Pass 4: Checking reference counts
+Pass 5: Checking group summary information
+/: 3641/4224 files (0.6% non-contiguous), 512250/786432 blocks
+2020-08-04 06:18:44 - add_img_to_target_files - INFO    : 
+
+++++ vendor  ++++
+
+
+2020-08-04 06:18:44 - add_img_to_target_files - INFO    : creating vendor.img...
+2020-08-04 06:18:44 - common.py - INFO    :   Running: "mkuserimg_mke2fs -s /aosp/out/target/product/bullhead/obj/PACKAGING/target_files_intermediates/aosp_bullhead-target_files-1880c07db2/VENDOR /aosp/out/target/product/bullhead/obj/PACKAGING/target_files_intermediates/aosp_bullhead-target_files-1880c07db2/IMAGES/vendor.img ext4 vendor 260046848 -j 0 -T 1230768000 -C /aosp/out/target/product/bullhead/obj/PACKAGING/target_files_intermediates/aosp_bullhead-target_files-1880c07db2/META/vendor_filesystem_config.txt -B /aosp/out/target/product/bullhead/obj/PACKAGING/target_files_intermediates/aosp_bullhead-target_files-1880c07db2/IMAGES/vendor.map -L vendor -M 0 -U 61e95c40-4b7b-5e41-8505-52aefa0daeba -S 65ebca79-edd0-5f9b-994c-abc415c761f7 --inode_size 256 /aosp/out/target/product/bullhead/obj/PACKAGING/target_files_intermediates/aosp_bullhead-target_files-1880c07db2/META/file_contexts.bin"
+2020-08-04 06:18:45 - common.py - INFO    : 06:18:44 mkuserimg_mke2fs.py INFO: Env: {'E2FSPROGS_FAKE_TIME': '1230768000', 'MKE2FS_CONFIG': '/aosp/out/soong/.temp/tmpuwD5UX'}
+06:18:44 mkuserimg_mke2fs.py INFO: Running: mke2fs -O ^has_journal -L vendor -I 256 -M /vendor -m 0 -U 61e95c40-4b7b-5e41-8505-52aefa0daeba -E android_sparse,hash_seed=65ebca79-edd0-5f9b-994c-abc415c761f7 -t ext4 -b 4096 /aosp/out/target/product/bullhead/obj/PACKAGING/target_files_intermediates/aosp_bullhead-target_files-1880c07db2/IMAGES/vendor.img 63488
+06:18:44 mkuserimg_mke2fs.py INFO: Env: {'E2FSPROGS_FAKE_TIME': '1230768000'}
+06:18:44 mkuserimg_mke2fs.py INFO: Running: e2fsdroid -T 1230768000 -C /aosp/out/target/product/bullhead/obj/PACKAGING/target_files_intermediates/aosp_bullhead-target_files-1880c07db2/META/vendor_filesystem_config.txt -B /aosp/out/target/product/bullhead/obj/PACKAGING/target_files_intermediates/aosp_bullhead-target_files-1880c07db2/IMAGES/vendor.map -S /aosp/out/target/product/bullhead/obj/PACKAGING/target_files_intermediates/aosp_bullhead-target_files-1880c07db2/META/file_contexts.bin -f /aosp/out/target/product/bullhead/obj/PACKAGING/target_files_intermediates/aosp_bullhead-target_files-1880c07db2/VENDOR -a /vendor /aosp/out/target/product/bullhead/obj/PACKAGING/target_files_intermediates/aosp_bullhead-target_files-1880c07db2/IMAGES/vendor.img
+mke2fs 1.44.4 (18-Aug-2018)
+Creating filesystem with 63488 4k blocks and 63488 inodes
+Filesystem UUID: 61e95c40-4b7b-5e41-8505-52aefa0daeba
+Superblock backups stored on blocks: 
+	32768
+
+Allocating group tables: done                            
+Writing inode tables: done                            
+Writing superblocks and filesystem accounting information: done
+
+
+loaded 891 fs_config entries
+Created filesystem with 901/63488 inodes and 53791/63488 blocks
+2020-08-04 06:18:45 - common.py - INFO    :   Running: "simg2img /aosp/out/target/product/bullhead/obj/PACKAGING/target_files_intermediates/aosp_bullhead-target_files-1880c07db2/IMAGES/vendor.img /aosp/out/target/product/bullhead/obj/PACKAGING/target_files_intermediates/aosp_bullhead-target_files-1880c07db2/IMAGES/unsparse_vendor.img"
+2020-08-04 06:18:45 - common.py - INFO    : 
+2020-08-04 06:18:45 - common.py - INFO    :   Running: "e2fsck -f -n /aosp/out/target/product/bullhead/obj/PACKAGING/target_files_intermediates/aosp_bullhead-target_files-1880c07db2/IMAGES/unsparse_vendor.img"
+2020-08-04 06:18:45 - common.py - INFO    : e2fsck 1.44.4 (18-Aug-2018)
+Pass 1: Checking inodes, blocks, and sizes
+Pass 2: Checking directory structure
+Pass 3: Checking directory connectivity
+Pass 4: Checking reference counts
+Pass 5: Checking group summary information
+vendor: 901/63488 files (0.3% non-contiguous), 53791/63488 blocks
+2020-08-04 06:18:45 - add_img_to_target_files - INFO    : 
+
+++++ userdata  ++++
+
+
+2020-08-04 06:18:45 - add_img_to_target_files - INFO    : creating userdata.img...
+2020-08-04 06:18:45 - common.py - INFO    :   Running: "mkuserimg_mke2fs -s /aosp/out/soong/.temp/tmpV18cB5 /aosp/out/target/product/bullhead/obj/PACKAGING/target_files_intermediates/aosp_bullhead-target_files-1880c07db2/IMAGES/userdata.img ext4 data 11649679360 -T 1230768000 -L data --inode_size 256 /aosp/out/target/product/bullhead/obj/PACKAGING/target_files_intermediates/aosp_bullhead-target_files-1880c07db2/META/file_contexts.bin"
+2020-08-04 06:18:45 - common.py - INFO    : 06:18:45 mkuserimg_mke2fs.py INFO: Env: {'E2FSPROGS_FAKE_TIME': '1230768000', 'MKE2FS_CONFIG': '/aosp/out/soong/.temp/tmpnWtYPN'}
+06:18:45 mkuserimg_mke2fs.py INFO: Running: mke2fs -L data -I 256 -M /data -E android_sparse -t ext4 -b 4096 /aosp/out/target/product/bullhead/obj/PACKAGING/target_files_intermediates/aosp_bullhead-target_files-1880c07db2/IMAGES/userdata.img 2844160
+06:18:45 mkuserimg_mke2fs.py INFO: Env: {'E2FSPROGS_FAKE_TIME': '1230768000'}
+06:18:45 mkuserimg_mke2fs.py INFO: Running: e2fsdroid -T 1230768000 -S /aosp/out/target/product/bullhead/obj/PACKAGING/target_files_intermediates/aosp_bullhead-target_files-1880c07db2/META/file_contexts.bin -f /aosp/out/soong/.temp/tmpV18cB5 -a /data /aosp/out/target/product/bullhead/obj/PACKAGING/target_files_intermediates/aosp_bullhead-target_files-1880c07db2/IMAGES/userdata.img
+mke2fs 1.44.4 (18-Aug-2018)
+Creating filesystem with 2844160 4k blocks and 711312 inodes
+Filesystem UUID: 03cf80f0-aa22-4b96-b91a-3649a43defdd
+Superblock backups stored on blocks: 
+	32768, 98304, 163840, 229376, 294912, 819200, 884736, 1605632, 2654208
+
+Allocating group tables: done                            
+Writing inode tables: done                            
+Creating journal (16384 blocks): done
+Writing superblocks and filesystem accounting information: done 
+
+
+Created filesystem with 11/711312 inodes and 67981/2844160 blocks
+2020-08-04 06:18:45 - common.py - INFO    :   Running: "simg2img /aosp/out/target/product/bullhead/obj/PACKAGING/target_files_intermediates/aosp_bullhead-target_files-1880c07db2/IMAGES/userdata.img /aosp/out/target/product/bullhead/obj/PACKAGING/target_files_intermediates/aosp_bullhead-target_files-1880c07db2/IMAGES/unsparse_userdata.img"
+2020-08-04 06:18:45 - common.py - INFO    : 
+2020-08-04 06:18:45 - common.py - INFO    :   Running: "e2fsck -f -n /aosp/out/target/product/bullhead/obj/PACKAGING/target_files_intermediates/aosp_bullhead-target_files-1880c07db2/IMAGES/unsparse_userdata.img"
+2020-08-04 06:18:45 - common.py - INFO    : e2fsck 1.44.4 (18-Aug-2018)
+Pass 1: Checking inodes, blocks, and sizes
+Pass 2: Checking directory structure
+Pass 3: Checking directory connectivity
+Pass 4: Checking reference counts
+Pass 5: Checking group summary information
+data: 11/711312 files (0.0% non-contiguous), 67981/2844160 blocks
+2020-08-04 06:18:45 - common.py - INFO    :   userdata size (132) is 0.00% of limit (11649679360)
+2020-08-04 06:18:45 - add_img_to_target_files - INFO    : 
+
+++++ cache  ++++
+
+
+2020-08-04 06:18:45 - add_img_to_target_files - INFO    : creating cache.img...
+2020-08-04 06:18:45 - common.py - INFO    :   Running: "mkuserimg_mke2fs -s /aosp/out/soong/.temp/tmpQh7mhE /aosp/out/target/product/bullhead/obj/PACKAGING/target_files_intermediates/aosp_bullhead-target_files-1880c07db2/IMAGES/cache.img ext4 cache 100663296 -T 1230768000 -L cache --inode_size 256 /aosp/out/target/product/bullhead/obj/PACKAGING/target_files_intermediates/aosp_bullhead-target_files-1880c07db2/META/file_contexts.bin"
+2020-08-04 06:18:45 - common.py - INFO    : 06:18:45 mkuserimg_mke2fs.py INFO: Env: {'E2FSPROGS_FAKE_TIME': '1230768000', 'MKE2FS_CONFIG': '/aosp/out/soong/.temp/tmpTAnLy5'}
+06:18:45 mkuserimg_mke2fs.py INFO: Running: mke2fs -L cache -I 256 -M /cache -E android_sparse -t ext4 -b 4096 /aosp/out/target/product/bullhead/obj/PACKAGING/target_files_intermediates/aosp_bullhead-target_files-1880c07db2/IMAGES/cache.img 24576
+06:18:45 mkuserimg_mke2fs.py INFO: Env: {'E2FSPROGS_FAKE_TIME': '1230768000'}
+06:18:45 mkuserimg_mke2fs.py INFO: Running: e2fsdroid -T 1230768000 -S /aosp/out/target/product/bullhead/obj/PACKAGING/target_files_intermediates/aosp_bullhead-target_files-1880c07db2/META/file_contexts.bin -f /aosp/out/soong/.temp/tmpQh7mhE -a /cache /aosp/out/target/product/bullhead/obj/PACKAGING/target_files_intermediates/aosp_bullhead-target_files-1880c07db2/IMAGES/cache.img
+mke2fs 1.44.4 (18-Aug-2018)
+Creating filesystem with 24576 4k blocks and 24576 inodes
+
+Allocating group tables: done                            
+Writing inode tables: done                            
+Creating journal (1024 blocks): done
+Writing superblocks and filesystem accounting information: done
+
+
+Created filesystem with 11/24576 inodes and 2575/24576 blocks
+2020-08-04 06:18:45 - common.py - INFO    :   Running: "simg2img /aosp/out/target/product/bullhead/obj/PACKAGING/target_files_intermediates/aosp_bullhead-target_files-1880c07db2/IMAGES/cache.img /aosp/out/target/product/bullhead/obj/PACKAGING/target_files_intermediates/aosp_bullhead-target_files-1880c07db2/IMAGES/unsparse_cache.img"
+2020-08-04 06:18:45 - common.py - INFO    : 
+2020-08-04 06:18:45 - common.py - INFO    :   Running: "e2fsck -f -n /aosp/out/target/product/bullhead/obj/PACKAGING/target_files_intermediates/aosp_bullhead-target_files-1880c07db2/IMAGES/unsparse_cache.img"
+2020-08-04 06:18:45 - common.py - INFO    : e2fsck 1.44.4 (18-Aug-2018)
+Pass 1: Checking inodes, blocks, and sizes
+Pass 2: Checking directory structure
+Pass 3: Checking directory connectivity
+Pass 4: Checking reference counts
+Pass 5: Checking group summary information
+cache: 11/24576 files (0.0% non-contiguous), 2575/24576 blocks
+2020-08-04 06:18:45 - common.py - INFO    :   cache size (129) is 0.00% of limit (100663296)
+2020-08-04 06:18:45 - add_img_to_target_files - INFO    : 
+
+++++ radio  ++++
+
+
+2020-08-04 06:18:45 - add_img_to_target_files - INFO    : done.
+[ 99% 60060/60061] Package OTA: /aosp/out/target/product/bullhead/aosp_bullhead-
+2020-08-04 06:18:52 - common.py - WARNING : Failed to read PRODUCT/build.prop
+2020-08-04 06:18:52 - common.py - WARNING : Failed to read PRODUCT/etc/build.prop
+2020-08-04 06:18:52 - common.py - WARNING : Failed to read PRODUCT_SERVICES/build.prop
+2020-08-04 06:18:52 - common.py - WARNING : Failed to read PRODUCT_SERVICES/etc/build.prop
+2020-08-04 06:18:52 - common.py - WARNING : Failed to read ODM/build.prop
+2020-08-04 06:18:52 - common.py - WARNING : Failed to read ODM/etc/build.prop
+2020-08-04 06:18:52 - ota_from_target_files - INFO    : --- target info ---
+2020-08-04 06:18:52 - common.py - INFO    : blockimgdiff_versions     = (str) 3,4
+2020-08-04 06:18:52 - common.py - INFO    : blocksize                 = (int) 131072
+2020-08-04 06:18:52 - common.py - INFO    : boot_size                 = (int) 33554432
+2020-08-04 06:18:52 - common.py - INFO    : build.prop                = (dict) {'persist.audio.fluence.speaker': 'true', 'ro.boot.vendor.overlay.theme': 'com.android.internal.systemui.navbar.gestural', 'ro.product.cpu.abilist': 'arm64-v8a,armeabi-v7a,armeabi', 'ro.build.product': 'bullhead', 'wifi.supplicant_scan_interval': '15', 'ro.facelock.est_max_time': '600', 'ro.build.id': 'QQ3A.200705.002', 'ro.hwui.gradient_cache_size': '1', 'persist.radio.process_sups_ind': '1', 'ro.product.cpu.abilist32': 'armeabi-v7a,armeabi', 'ril.nosim.ecc_list_1': '111,113,117,122,125', 'ro.qc.sdk.audio.fluencetype': 'fluencepro', 'ro.facelock.black_timeout': '700', 'persist.sys.disable_rescue': 'true', 'debug.stagefright.omx_default_rank.sw-audio': '1', 'ro.frp.pst': '/dev/block/platform/soc.0/f9824900.sdhci/by-name/persistent', 'af.fast_track_multiplier': '1', 'persist.radio.always_send_plmn': 'true', 'dalvik.vm.heapmaxfree': '8m', 'ro.build.fingerprint': 'google/bullhead/bullhead:8.1.0/OPM3.171019.014/4503998:user/release-keys', 'ro.product.manufacturer': 'LGE', 'ro.min_freq_4': '384000', 'persist.service.btui.use_aptx': '1', 'dalvik.vm.dex2oat-threads': '4', 'ro.min_freq_0': '384000', 'ro.system.build.version.sdk': '29', 'ro.facelock.det_timeout': '2500', 'ro.hwui.layer_cache_size': '32', 'ro.build.description': 'bullhead-user 8.1.0 OPM3.171019.014 4503998 release-keys', 'ro.system.build.tags': 'test-keys', 'dalvik.vm.heapstartsize': '8m', 'persist.speaker.prot.enable': 'true', 'ro.product.brand': 'google', 'org.pixelexperience.build_date_utc': '1596510660', 'wifi.interface': 'wlan0', 'persist.qcril.disable_retry': 'true', 'persist.radio.data_ltd_sys_ind': '1', 'ro.product.model': 'Nexus 5X', 'persist.radio.redir_party_num': '0', 'persist.camera.tnr.video': '0', 'ro.system.build.fingerprint': 'google/bullhead/bullhead:8.1.0/OPM3.171019.014/4503998:user/release-keys', 'ro.product.system.model': 'Nexus 5X', 'persist.audio.fluence.voicecall': 'true', 'ro.facelock.rec_timeout': '3500', 'ro.system.build.type': 'userdebug', 'dalvik.vm.heaptargetutilization': '0.75', 'persist.dbg.vt_avail_ovr': '1', 'persist.camera.eis.enable': '1', 'ro.build.host': 'cc7013504c11', 'ro.build.version.security_patch': '2020-07-05', 'telephony.lteOnCdmaDevice': '1', 'persist.radio.use_cc_names': 'true', 'ro.product.locale': 'en-US', 'dalvik.vm.image-dex2oat-threads': '4', 'ro.carrier': 'unknown', 'persist.audio.fluence.voicerec': 'false', 'dalvik.vm.heapminfree': '512k', 'ro.system.build.id': 'QQ3A.200705.002', 'persist.radio.data_no_toggle': '1', 'org.pixelexperience.build_date': '20200804-0311', 'persist.dbg.volte_avail_ovr': '1', 'bluetooth.enable_timeout_ms': '12000', 'vidc.enc.dcvs.extra-buff-count': '2', 'ro.audio.flinger_standbytime_ms': '300', 'ro.product.cpu.abilist64': 'arm64-v8a', 'persist.radio.calls.on.ims': '1', 'drm.service.enabled': 'true', 'persist.radio.data_con_rprt': 'true', 'rild.libpath': '/vendor/lib64/libril-qc-qmi-1.so', 'ro.build.flavor': 'aosp_bullhead-userdebug', 'vidc.debug.perf.mode': '2', 'ro.build.version.release': '10', 'ro.build.version.codename': 'REL', 'net.bt.name': 'Android', 'ro.product.system.name': 'aosp_bullhead', 'ro.build.type': 'userdebug', 'ro.hwui.text_large_cache_width': '2048', 'ro.opengles.version': '196610', 'persist.media.treble_omx': 'false', 'persist.camera.tnr.preview': '0', 'ro.hwui.text_small_cache_height': '1024', 'ro.build.display.id': 'QQ3A.200705.002', 'dalvik.vm.heapsize': '512m', 'org.pixelexperience.version': 'ten_plus', 'ro.product.system.brand': 'google', 'ro.build.version.preview_sdk': '0', 'org.pixelexperience.version.display': 'PixelExperience_Plus_bullhead-10.0-20200804-0311-UNOFFICIAL', 'ro.build.date': 'Tue Aug  4 03:11:37 UTC 2020', 'ro.system.build.version.incremental': '1880c07db2', 'persist.radio.mode_pref_nv10': '1', 'persist.vendor.bt.a2dp_offload_cap': 'sbc-aptx-aptxtws-aptxhd-aac-ldac', 'ro.camera.notify_nfc': '1', 'qcom.bluetooth.soc': 'rome', 'ro.build.date.utc': '1596510697', 'keyguard.no_require_sim': 'true', 'persist.camera.is_type': '4', 'persist.dbg.ims_volte_enable': '1', 'ro.build.version.all_codenames': 'REL', 'ro.product.system.device': 'bullhead', 'org.pixelexperience.build_type': 'UNOFFICIAL', 'ro.hwui.text_small_cache_width': '1024', 'ro.product.cpu.abi': 'arm64-v8a', 'media.recorder.show_manufacturer_and_model': 'true', 'ro.treble.enabled': 'false', 'ro.product.name': 'aosp_bullhead', 'ro.hwui.drop_shadow_cache_size': '6', 'ro.telephony.default_cdma_sub': '0', 'ro.build.version.base_os': '', 'ro.telephony.call_ring.multiple': '0', 'persist.radio.eri64_as_home': '1', 'ro.vendor.extension_library': 'libqti-perfd-client.so', 'ril.nosim.ecc_list_count': '1', 'dalvik.vm.boot-dex2oat-threads': '4', 'ro.wifi.channels': '', 'ro.hwui.r_buffer_cache_size': '8', 'ro.product.system.manufacturer': 'LGE', 'persist.camera.HAL3.enabled': '1', 'persist.vendor.btstack.a2dp_offload_cap': 'sbc-aptx-aptxtws-aptxhd-aac-ldac', 'ro.build.version.min_supported_target_sdk': '23', 'ro.telephony.default_network': '22', 'persist.dbg.wfc_avail_ovr': '1', 'persist.bt.enableAptXHD': 'true', 'ro.build.version.incremental': '1880c07db2', 'ro.hwui.text_large_cache_height': '1024', 'persist.radio.custom_ecc': '1', 'ro.build.tags': 'test-keys', 'ro.system.build.date.utc': '1596510697', 'ro.sf.lcd_density': '420', 'ro.build.version.sdk': '29', 'ro.build.user': 'aosp', 'org.pixelexperience.device': 'bullhead', 'ro.hwui.path_cache_size': '16', 'ro.product.device': 'bullhead', 'persist.radio.rat_on': 'combine', 'ro.hwui.texture_cache_flushrate': '0.4', 'dalvik.vm.heapgrowthlimit': '192m', 'ro.hwui.texture_cache_size': '56', 'persist.audio.fluence.voicecomm': 'true', 'ro.system.build.date': 'Tue Aug  4 03:11:37 UTC 2020', 'audio_hal.period_size': '192', 'ro.system.build.version.release': '10', 'persist.radio.apm_sim_not_pwdn': '1', 'persist.hwc.mdpcomp.enable': 'true', 'ro.config.vc_call_vol_steps': '7', 'persist.debug.dalvik.vm.core_platform_api_policy': 'just-warn', 'ro.build.version.preview_sdk_fingerprint': 'REL', 'media.aac_51_output_enabled': 'true'}
+2020-08-04 06:18:52 - common.py - INFO    : cache_fs_type             = (str) ext4
+2020-08-04 06:18:52 - common.py - INFO    : cache_size                = (int) 100663296
+2020-08-04 06:18:52 - common.py - INFO    : default_system_dev_certificate = (str) build/make/target/product/security/testkey
+2020-08-04 06:18:52 - common.py - INFO    : ext_mkuserimg             = (str) mkuserimg_mke2fs
+2020-08-04 06:18:52 - common.py - INFO    : extfs_sparse_flag         = (str) -s
+2020-08-04 06:18:52 - common.py - INFO    : fs_type                   = (str) ext4
+2020-08-04 06:18:52 - common.py - INFO    : fstab                     = (dict) {'/abootbak': <common.Partition object at 0x7f82574f6710>, '/cache': <common.Partition object at 0x7f82574daf90>, '/data': <common.Partition object at 0x7f82574dae90>, '/rpm': <common.Partition object at 0x7f82574f6390>, '/tz': <common.Partition object at 0x7f82574f6190>, '/rpmbak': <common.Partition object at 0x7f82574f66d0>, '/keymasterbak': <common.Partition object at 0x7f82574f67d0>, '/sbl1': <common.Partition object at 0x7f82574f6150>, '/sbl1bak': <common.Partition object at 0x7f82574f6650>, '/misc': <common.Partition object at 0x7f82574f60d0>, '/hypbak': <common.Partition object at 0x7f82574f6790>, '/boot': <common.Partition object at 0x7f82574f6050>, '/system': <common.Partition object at 0x7f82574daf10>, '/recovery': <common.Partition object at 0x7f82574f6090>, '/imgdata': <common.Partition object at 0x7f82574f6450>, '/firmware': <common.Partition object at 0x7f82574dafd0>, '/sec': <common.Partition object at 0x7f82574f6510>, '/vendor': <common.Partition object at 0x7f82574daed0>, '/radio': <common.Partition object at 0x7f82574f6110>, '/persist': <common.Partition object at 0x7f82574daf50>, '/pmic': <common.Partition object at 0x7f82574f6490>, '/aboot': <common.Partition object at 0x7f82574f6410>, '/tzbak': <common.Partition object at 0x7f82574f6690>, '/cmnlibbak': <common.Partition object at 0x7f82574f6810>, '/pmicbak': <common.Partition object at 0x7f82574f6750>, 'none': <common.Partition object at 0x7f82574f6610>, '/keymaster': <common.Partition object at 0x7f82574f6550>, '/persistent': <common.Partition object at 0x7f82574f65d0>, '/hyp': <common.Partition object at 0x7f82574f64d0>, '/sdi': <common.Partition object at 0x7f82574f63d0>, '/cmnlib': <common.Partition object at 0x7f82574f6590>}
+2020-08-04 06:18:52 - common.py - INFO    : fstab_version             = (int) 2
+2020-08-04 06:18:52 - common.py - INFO    : lpmake                    = (str) lpmake
+2020-08-04 06:18:52 - common.py - INFO    : mkbootimg_args            = (str) --ramdisk_offset 0x02000000 --tags_offset 0x01E00000
+2020-08-04 06:18:52 - common.py - INFO    : mkbootimg_version_args    = (str) --os_version 10 --os_patch_level 2020-07-05
+2020-08-04 06:18:52 - common.py - INFO    : multistage_support        = (str) 1
+2020-08-04 06:18:52 - common.py - INFO    : odm.build.prop            = (dict) {}
+2020-08-04 06:18:52 - common.py - INFO    : ota_override_device       = (str) auto
+2020-08-04 06:18:52 - common.py - INFO    : product.build.prop        = (dict) {}
+2020-08-04 06:18:52 - common.py - INFO    : product_services.build.prop = (dict) {}
+2020-08-04 06:18:52 - common.py - INFO    : recovery_api_version      = (int) 3
+2020-08-04 06:18:52 - common.py - INFO    : recovery_mount_options    = (str) ext4=max_batch_time=0,commit=1,data=ordered,barrier=1,errors=panic,nodelalloc
+2020-08-04 06:18:52 - common.py - INFO    : recovery_size             = (int) 33554432
+2020-08-04 06:18:52 - common.py - INFO    : root_dir                  = (str) /aosp/out/target/product/bullhead/root
+2020-08-04 06:18:52 - common.py - INFO    : selinux_fc                = (str) /aosp/out/target/product/bullhead/obj/ETC/file_contexts.bin_intermediates/file_contexts.bin
+2020-08-04 06:18:52 - common.py - INFO    : squashfs_sparse_flag      = (str) -s
+2020-08-04 06:18:52 - common.py - INFO    : super_metadata_device     = (str) 
+2020-08-04 06:18:52 - common.py - INFO    : system.build.prop         = (dict) {'persist.audio.fluence.speaker': 'true', 'ro.boot.vendor.overlay.theme': 'com.android.internal.systemui.navbar.gestural', 'ro.product.cpu.abilist': 'arm64-v8a,armeabi-v7a,armeabi', 'ro.build.product': 'bullhead', 'wifi.supplicant_scan_interval': '15', 'ro.facelock.est_max_time': '600', 'ro.build.id': 'QQ3A.200705.002', 'ro.hwui.gradient_cache_size': '1', 'persist.radio.process_sups_ind': '1', 'ro.product.cpu.abilist32': 'armeabi-v7a,armeabi', 'ril.nosim.ecc_list_1': '111,113,117,122,125', 'ro.qc.sdk.audio.fluencetype': 'fluencepro', 'ro.facelock.black_timeout': '700', 'persist.sys.disable_rescue': 'true', 'debug.stagefright.omx_default_rank.sw-audio': '1', 'ro.frp.pst': '/dev/block/platform/soc.0/f9824900.sdhci/by-name/persistent', 'af.fast_track_multiplier': '1', 'persist.radio.always_send_plmn': 'true', 'dalvik.vm.heapmaxfree': '8m', 'ro.build.fingerprint': 'google/bullhead/bullhead:8.1.0/OPM3.171019.014/4503998:user/release-keys', 'ro.product.manufacturer': 'LGE', 'ro.min_freq_4': '384000', 'persist.service.btui.use_aptx': '1', 'dalvik.vm.dex2oat-threads': '4', 'ro.min_freq_0': '384000', 'ro.system.build.version.sdk': '29', 'ro.facelock.det_timeout': '2500', 'ro.hwui.layer_cache_size': '32', 'ro.build.description': 'bullhead-user 8.1.0 OPM3.171019.014 4503998 release-keys', 'ro.system.build.tags': 'test-keys', 'dalvik.vm.heapstartsize': '8m', 'persist.speaker.prot.enable': 'true', 'ro.product.brand': 'google', 'org.pixelexperience.build_date_utc': '1596510660', 'wifi.interface': 'wlan0', 'persist.qcril.disable_retry': 'true', 'persist.radio.data_ltd_sys_ind': '1', 'ro.product.model': 'Nexus 5X', 'persist.radio.redir_party_num': '0', 'persist.camera.tnr.video': '0', 'ro.system.build.fingerprint': 'google/bullhead/bullhead:8.1.0/OPM3.171019.014/4503998:user/release-keys', 'ro.product.system.model': 'Nexus 5X', 'persist.audio.fluence.voicecall': 'true', 'ro.facelock.rec_timeout': '3500', 'ro.system.build.type': 'userdebug', 'dalvik.vm.heaptargetutilization': '0.75', 'persist.dbg.vt_avail_ovr': '1', 'persist.camera.eis.enable': '1', 'ro.build.host': 'cc7013504c11', 'ro.build.version.security_patch': '2020-07-05', 'telephony.lteOnCdmaDevice': '1', 'persist.radio.use_cc_names': 'true', 'ro.product.locale': 'en-US', 'dalvik.vm.image-dex2oat-threads': '4', 'ro.carrier': 'unknown', 'persist.audio.fluence.voicerec': 'false', 'dalvik.vm.heapminfree': '512k', 'ro.system.build.id': 'QQ3A.200705.002', 'persist.radio.data_no_toggle': '1', 'org.pixelexperience.build_date': '20200804-0311', 'persist.dbg.volte_avail_ovr': '1', 'bluetooth.enable_timeout_ms': '12000', 'vidc.enc.dcvs.extra-buff-count': '2', 'ro.audio.flinger_standbytime_ms': '300', 'ro.product.cpu.abilist64': 'arm64-v8a', 'persist.radio.calls.on.ims': '1', 'drm.service.enabled': 'true', 'persist.radio.data_con_rprt': 'true', 'rild.libpath': '/vendor/lib64/libril-qc-qmi-1.so', 'ro.build.flavor': 'aosp_bullhead-userdebug', 'vidc.debug.perf.mode': '2', 'ro.build.version.release': '10', 'ro.build.version.codename': 'REL', 'net.bt.name': 'Android', 'ro.product.system.name': 'aosp_bullhead', 'ro.build.type': 'userdebug', 'ro.hwui.text_large_cache_width': '2048', 'ro.opengles.version': '196610', 'persist.media.treble_omx': 'false', 'persist.camera.tnr.preview': '0', 'ro.hwui.text_small_cache_height': '1024', 'ro.build.display.id': 'QQ3A.200705.002', 'dalvik.vm.heapsize': '512m', 'org.pixelexperience.version': 'ten_plus', 'ro.product.system.brand': 'google', 'ro.build.version.preview_sdk': '0', 'org.pixelexperience.version.display': 'PixelExperience_Plus_bullhead-10.0-20200804-0311-UNOFFICIAL', 'ro.build.date': 'Tue Aug  4 03:11:37 UTC 2020', 'ro.system.build.version.incremental': '1880c07db2', 'persist.radio.mode_pref_nv10': '1', 'persist.vendor.bt.a2dp_offload_cap': 'sbc-aptx-aptxtws-aptxhd-aac-ldac', 'ro.camera.notify_nfc': '1', 'qcom.bluetooth.soc': 'rome', 'ro.build.date.utc': '1596510697', 'keyguard.no_require_sim': 'true', 'persist.camera.is_type': '4', 'persist.dbg.ims_volte_enable': '1', 'ro.build.version.all_codenames': 'REL', 'ro.product.system.device': 'bullhead', 'org.pixelexperience.build_type': 'UNOFFICIAL', 'ro.hwui.text_small_cache_width': '1024', 'ro.product.cpu.abi': 'arm64-v8a', 'media.recorder.show_manufacturer_and_model': 'true', 'ro.treble.enabled': 'false', 'ro.product.name': 'aosp_bullhead', 'ro.hwui.drop_shadow_cache_size': '6', 'ro.telephony.default_cdma_sub': '0', 'ro.build.version.base_os': '', 'ro.telephony.call_ring.multiple': '0', 'persist.radio.eri64_as_home': '1', 'ro.vendor.extension_library': 'libqti-perfd-client.so', 'ril.nosim.ecc_list_count': '1', 'dalvik.vm.boot-dex2oat-threads': '4', 'ro.wifi.channels': '', 'ro.hwui.r_buffer_cache_size': '8', 'ro.product.system.manufacturer': 'LGE', 'persist.camera.HAL3.enabled': '1', 'persist.vendor.btstack.a2dp_offload_cap': 'sbc-aptx-aptxtws-aptxhd-aac-ldac', 'ro.build.version.min_supported_target_sdk': '23', 'ro.telephony.default_network': '22', 'persist.dbg.wfc_avail_ovr': '1', 'persist.bt.enableAptXHD': 'true', 'ro.build.version.incremental': '1880c07db2', 'ro.hwui.text_large_cache_height': '1024', 'persist.radio.custom_ecc': '1', 'ro.build.tags': 'test-keys', 'ro.system.build.date.utc': '1596510697', 'ro.sf.lcd_density': '420', 'ro.build.version.sdk': '29', 'ro.build.user': 'aosp', 'org.pixelexperience.device': 'bullhead', 'ro.hwui.path_cache_size': '16', 'ro.product.device': 'bullhead', 'persist.radio.rat_on': 'combine', 'ro.hwui.texture_cache_flushrate': '0.4', 'dalvik.vm.heapgrowthlimit': '192m', 'ro.hwui.texture_cache_size': '56', 'persist.audio.fluence.voicecomm': 'true', 'ro.system.build.date': 'Tue Aug  4 03:11:37 UTC 2020', 'audio_hal.period_size': '192', 'ro.system.build.version.release': '10', 'persist.radio.apm_sim_not_pwdn': '1', 'persist.hwc.mdpcomp.enable': 'true', 'ro.config.vc_call_vol_steps': '7', 'persist.debug.dalvik.vm.core_platform_api_policy': 'just-warn', 'ro.build.version.preview_sdk_fingerprint': 'REL', 'media.aac_51_output_enabled': 'true'}
+2020-08-04 06:18:52 - common.py - INFO    : system_extfs_inode_count  = (str) 4096
+2020-08-04 06:18:52 - common.py - INFO    : system_journal_size       = (str) 0
+2020-08-04 06:18:52 - common.py - INFO    : system_size               = (int) 3221225472
+2020-08-04 06:18:52 - common.py - INFO    : tool_extensions           = (str) device/lge/bullhead
+2020-08-04 06:18:52 - common.py - INFO    : use_set_metadata          = (str) 1
+2020-08-04 06:18:52 - common.py - INFO    : userdata_size             = (int) 11649679360
+2020-08-04 06:18:52 - common.py - INFO    : vendor.build.prop         = (dict) {'ro.product.vendor.brand': 'google', 'ro.vendor.product.cpu.abilist64': 'arm64-v8a', 'ro.hwui.use_vulkan': '', 'ro.bootimage.build.fingerprint': 'google/bullhead/bullhead:8.1.0/OPM3.171019.014/4503998:user/release-keys', 'ro.vendor.product.cpu.abilist': 'arm64-v8a,armeabi-v7a,armeabi', 'ro.product.vendor.manufacturer': 'LGE', 'ro.product.board': 'bullhead', 'ro.vendor.build.date.utc': '1596510697', 'ro.product.first_api_level': '23', 'ro.vendor.build.type': 'userdebug', 'ro.product.vendor.model': 'Nexus 5X', 'ro.vendor.build.id': 'QQ3A.200705.002', 'ro.board.platform': 'msm8992', 'ro.bootimage.build.date': 'Tue Aug 4 03:11:37 UTC 2020', 'ro.bootimage.build.date.utc': '1596510697', 'ro.vendor.build.fingerprint': 'google/bullhead/bullhead:8.1.0/OPM3.171019.014/4503998:user/release-keys', 'ro.vendor.build.security_patch': '', 'ro.vendor.build.version.sdk': '29', 'ro.vendor.product.cpu.abilist32': 'armeabi-v7a,armeabi', 'ro.vendor.build.tags': 'test-keys', 'ro.vendor.build.version.release': '10', 'ro.product.vendor.device': 'bullhead', 'ro.vendor.build.date': 'Tue Aug  4 03:11:37 UTC 2020', 'ro.vendor.build.version.incremental': '1880c07db2', 'ro.product.vendor.name': 'aosp_bullhead'}
+2020-08-04 06:18:52 - common.py - INFO    : vendor_fs_type            = (str) ext4
+2020-08-04 06:18:52 - common.py - INFO    : vendor_size               = (int) 260046848
+2020-08-04 06:18:52 - common.py - INFO    :   Running: "openssl pkcs8 -in build/make/target/product/security/testkey.pk8 -inform DER -nocrypt"
+2020-08-04 06:18:52 - ota_from_target_files - INFO    : (using device-specific extensions from target_files)
+2020-08-04 06:18:52 - common.py - INFO    : loaded device-specific extensions from /aosp/out/target/product/bullhead/obj/PACKAGING/target_files_intermediates/aosp_bullhead-target_files-1880c07db2/META/releasetools.py
+2020-08-04 06:18:52 - sparse_img.py - INFO    : Total of 786432 4096-byte output blocks in 26 input chunks.
+2020-08-04 06:18:55 - blockimgdiff.py - INFO    : Finding transfers...
+2020-08-04 06:19:01 - blockimgdiff.py - INFO    : Generating digraph...
+2020-08-04 06:19:01 - blockimgdiff.py - INFO    : Finding vertex sequence...
+2020-08-04 06:19:01 - blockimgdiff.py - INFO    : Reversing backward edges...
+2020-08-04 06:19:01 - blockimgdiff.py - INFO    :   0/0 dependencies (0.00%) were violated; 0 source blocks stashed.
+2020-08-04 06:19:01 - blockimgdiff.py - INFO    : Improving vertex order...
+2020-08-04 06:19:01 - blockimgdiff.py - INFO    : Revising stash size...
+2020-08-04 06:19:01 - blockimgdiff.py - INFO    :   Total 0 blocks (0 bytes) are packed as new blocks due to insufficient cache size. Maximum blocks stashed simultaneously: 0
+2020-08-04 06:19:01 - blockimgdiff.py - INFO    : Revising stash size...
+2020-08-04 06:19:01 - blockimgdiff.py - INFO    :   Total 0 blocks (0 bytes) are packed as new blocks due to insufficient cache size. Maximum blocks stashed simultaneously: 0
+2020-08-04 06:19:07 - blockimgdiff.py - INFO    : Reticulating splines...
+2020-08-04 06:19:09 - blockimgdiff.py - INFO    : 2094096384 2094096384 (100.00%)     new __DATA 0-32769 32961-98305 98497-163841 164033-229377 229569-294913 295105-511894 524288-524388 557056-557129 589824-589893 622592-622642 655360-655369 655373-655379 753664
+2020-08-04 06:19:09 - blockimgdiff.py - INFO    : max stashed blocks: 0  (0 bytes), limit: 80530636 bytes (0.00%)
+
+2020-08-04 06:19:09 - blockimgdiff.py - INFO    :   Imgdiff Stats Report  
+2020-08-04 06:19:09 - blockimgdiff.py - INFO    : ========================
+
+2020-08-04 06:19:09 - sparse_img.py - INFO    : Total of 63488 4096-byte output blocks in 8 input chunks.
+2020-08-04 06:19:10 - blockimgdiff.py - INFO    : Finding transfers...
+2020-08-04 06:19:10 - blockimgdiff.py - INFO    : Generating digraph...
+2020-08-04 06:19:10 - blockimgdiff.py - INFO    : Finding vertex sequence...
+2020-08-04 06:19:10 - blockimgdiff.py - INFO    : Reversing backward edges...
+2020-08-04 06:19:10 - blockimgdiff.py - INFO    :   0/0 dependencies (0.00%) were violated; 0 source blocks stashed.
+2020-08-04 06:19:10 - blockimgdiff.py - INFO    : Improving vertex order...
+2020-08-04 06:19:10 - blockimgdiff.py - INFO    : Revising stash size...
+2020-08-04 06:19:10 - blockimgdiff.py - INFO    :   Total 0 blocks (0 bytes) are packed as new blocks due to insufficient cache size. Maximum blocks stashed simultaneously: 0
+2020-08-04 06:19:10 - blockimgdiff.py - INFO    : Revising stash size...
+2020-08-04 06:19:10 - blockimgdiff.py - INFO    :   Total 0 blocks (0 bytes) are packed as new blocks due to insufficient cache size. Maximum blocks stashed simultaneously: 0
+2020-08-04 06:19:11 - blockimgdiff.py - INFO    : Reticulating splines...
+2020-08-04 06:19:11 - blockimgdiff.py - INFO    :  204242944  204242944 (100.00%)     new __DATA 0-75 2003-32769 32785 34771-53790
+2020-08-04 06:19:11 - blockimgdiff.py - INFO    : max stashed blocks: 0  (0 bytes), limit: 80530636 bytes (0.00%)
+
+2020-08-04 06:19:11 - blockimgdiff.py - INFO    :   Imgdiff Stats Report  
+2020-08-04 06:19:11 - blockimgdiff.py - INFO    : ========================
+
+2020-08-04 06:19:11 - common.py - INFO    : using prebuilt recovery.img from IMAGES...
+2020-08-04 06:19:11 - common.py - INFO    :   Running: "brotli --quality=6 --output=/aosp/out/soong/.temp/tmpeoXTgq/system.new.dat.br /aosp/out/soong/.temp/tmpeoXTgq/system.new.dat"
+2020-08-04 06:21:10 - common.py - INFO    : 
+2020-08-04 06:21:12 - common.py - INFO    :   Running: "brotli --quality=6 --output=/aosp/out/soong/.temp/tmp9vN6gj/vendor.new.dat.br /aosp/out/soong/.temp/tmp9vN6gj/vendor.new.dat"
+2020-08-04 06:21:25 - common.py - INFO    : 
+2020-08-04 06:21:25 - common.py - INFO    : using prebuilt boot.img from IMAGES...
+2020-08-04 06:21:25 - common.py - INFO    :   boot size (11751424) is 35.02% of limit (33554432)
+2020-08-04 06:21:26 - common.py - INFO    :   Running: "java -Xmx2048m -Djava.library.path=/aosp/out/host/linux-x86/lib64 -jar /aosp/out/host/linux-x86/framework/signapk.jar -w build/make/target/product/security/testkey.x509.pem build/make/target/product/security/testkey.pk8 /aosp/out/soong/.temp/tmpWTtlTc.zip /aosp/out/soong/.temp/tmps1WB63.zip"
+2020-08-04 06:21:31 - common.py - INFO    :   Running: "zip -d /aosp/out/soong/.temp/tmps1WB63.zip META-INF/com/android/metadata"
+2020-08-04 06:21:32 - common.py - INFO    : deleting: META-INF/com/android/metadata
+2020-08-04 06:21:32 - common.py - INFO    :   Running: "java -Xmx2048m -Djava.library.path=/aosp/out/host/linux-x86/lib64 -jar /aosp/out/host/linux-x86/framework/signapk.jar -w build/make/target/product/security/testkey.x509.pem build/make/target/product/security/testkey.pk8 /aosp/out/soong/.temp/tmps1WB63.zip /aosp/out/target/product/bullhead/aosp_bullhead-ota-1880c07db2.zip"
+2020-08-04 06:21:36 - ota_from_target_files - INFO    : done.
+Compressing system.new.dat with brotli
+Compressing vendor.new.dat with brotli
+no bootloader.img in target_files; skipping install
+no radio.img in target_files; skipping install
+[100% 60061/60061] build bacon
+Package Complete: /aosp/out/target/product/bullhead/PixelExperience_Plus_bullhead-10.0-20200804-0311-UNOFFICIAL.zip
+
+#### build completed successfully (03:10:01 (hh:mm:ss)) ####
+
+timleung@timleung-System-Product-Name:~/project/docker-new-android$ 
+
+
