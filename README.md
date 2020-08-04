@@ -47,7 +47,7 @@ For the terribly impatient.
 
             mkdir aosp ; cd aosp
             export AOSP_VOL=$PWD
-            curl -O https://github.com/timleunghk/docker-new-android/build-pixelexperience-pie.sh
+            curl -O https://raw.githubusercontent.com/timleunghk/aosp-docker/master/build-pixelexperience-pie.sh
             bash ./build-pixelexperience-pie.sh
 
 
