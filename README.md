@@ -55,7 +55,7 @@ For the terribly impatient.
             mkdir aosp ; cd aosp
             export AOSP_VOL=$PWD
             curl -O https://raw.githubusercontent.com/timleunghk/aosp-docker/master/build-timos.sh
-            bash ./build-pixelexperience-pie.sh
+            bash ./build-timos.sh
 
 Deliverables
 ------------
