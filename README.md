@@ -50,6 +50,12 @@ For the terribly impatient.
             curl -O https://raw.githubusercontent.com/timleunghk/aosp-docker/master/build-pixelexperience-pie.sh
             bash ./build-pixelexperience-pie.sh
 
+      OR
+
+            mkdir aosp ; cd aosp
+            export AOSP_VOL=$PWD
+            curl -O https://raw.githubusercontent.com/timleunghk/aosp-docker/master/build-timos.sh
+            bash ./build-pixelexperience-pie.sh
 
 Deliverables
 ------------
@@ -57,13 +63,18 @@ Deliverables
 From creating docker image to building a OTA package of image file for your mobile phone, it takes about 2 hours and 35 minutes to download and build on i7 with 100Mb/s network connection. The deliverable is a zip file. It can be found in the following directory
     
 ```
-$HOME/aosp-test/aosp/out/target/product/bullhead/
+$HOME/aosp/aosp/out/target/product/bullhead/
 ```
 
 And the naming format of the deliverables should be like this
 ```
 PixelExperience_Plus_bullhead-10.0-yymmdd-hhmm-UNOFFICIAL.zip
 ```
+Alterbatively, if you select TimOS to build, the deliverables should be like this
+```
+TimOS_bullhead-10.0-yymmdd-hhmm-UNOFFICIAL.zip
+```
+
 
 You can copy this file to your Nexus5X mobile phone. To install this, please ensure your mobile phone is unlocked and teamwin is installed in bootloader section of your mobile phone. For details of unlocking phone and installing teamwin, please search relavent articles in xdaDeveloper.
 
